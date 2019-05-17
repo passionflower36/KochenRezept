@@ -3,4 +3,7 @@
     <string name="title_home">Rezepte</string>
     <string name="title_dashboard">Wissen</string>
     <string name="title_notifications">Profil</string>
+    <string name="werbistdu">Wer bist du?</string>
+    <string name="edit">Name eingeben</string>
+    <string name="speichern">Speichern</string>
 </resources>

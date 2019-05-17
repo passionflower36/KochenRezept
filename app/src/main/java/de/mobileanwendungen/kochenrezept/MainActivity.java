@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity
 
         loadFragment(new RezeptFragment());
     }
+    //new
 
     private boolean loadFragment(Fragment fragment){
         if( fragment != null){

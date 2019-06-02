@@ -47,11 +47,14 @@ public class MainActivity extends AppCompatActivity
 
         switch(menuItem.getItemId()){
             case R.id.navigation_profil:
-                fragment= new ProfilFragment();
+                fragment= new profil2();
                 break;
 
             case R.id.navigation_rezept:
                 fragment = new RezeptFragment();
+                break;
+            case R.id.navigation_wissen:
+                fragment = new WissenFragment();
                 break;
         }
         return loadFragment(fragment);

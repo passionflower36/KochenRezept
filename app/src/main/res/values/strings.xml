@@ -6,4 +6,22 @@
     <string name="werbistdu">Wer bist du?</string>
     <string name="edit">Name eingeben</string>
     <string name="speichern">Speichern</string>
+
+    <!-- Wissen-->
+    <string name="wissen">Die Ernährungspyramide</string>
+    <string name="carbs">Kohlenhydrate</string>
+    <string name="carbs_info">Zu viel Fett und zu viel Zucker machen dick und krank. Dennoch brauchen wir beide Nahrungsbestandteile zum Leben. Doch wie können wir unseren Kohlenhydrate-Bedarf künftig decken, wenn die Bevölkerungszahl weltweit schneller steigt als die Nahrungsmittel-Produktion? Zum Beispiel mit "Smart Breeding".
+
+Eigentlich brauchen wir keinen künstlich hergestellten Zucker, denn der Körper kann die lebensnotwendige Glucose ohne Probleme aus Kohlenhydraten wie Obst, Gemüse, Reis, Kartoffeln und auch aus Fleisch gewinnen.
+
+Dafür muss aber genug Gemüse und Getreide da sein, um die Nachfrage weltweit zu decken. Wie könnte man sicher für Nachschub sorgen – auch wenn die Weltbevölkerung stark wächst?</string>
+
+    <string name="drinks">Getränke</string>
+    <string name="nutsoils">Nüsse und Öle</string>
+    <string name="junks">Junkfood und alkoholische Getränke</string>
+    <string name="proteins">Eiweiße von tierische Produkten</string>
+    <string name="vegs">Obst und Gemüse</string>
+
+
+
 </resources>

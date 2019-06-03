@@ -20,3 +20,5 @@ J. Versionen
 - Gestures zum auswählen der Rezepte
 - https://material.io/design/interaction/gestures.html#types-of-gestures
  -https://material.io/design/components/lists.html#behavior
+- Navigation Transition?
+- **Basil** https://material.io/design/material-studies/basil.html#product-architecture

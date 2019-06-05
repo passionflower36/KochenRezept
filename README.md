@@ -8,6 +8,7 @@ J. Versionen
 
 **Design** ref MaterialDesign
 - Color Scheming einheitlich
+- Color: #add827
 - https://material.io/design/color/applying-color-to-ui.html#backdrop
 - Buttons und Texte in einheitlichem Design
 - **Screeninhalt an Displaygröße anpassen**

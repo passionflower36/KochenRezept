@@ -4,7 +4,8 @@
     <item
         android:id="@+id/navigation_rezept"
         android:icon="@drawable/icon_rezept"
-        android:title="@string/title_home" />
+        android:title="@string/title_home"
+        android:iconTint="@color/colorAccent"/>
 
     <item
         android:id="@+id/navigation_wissen"

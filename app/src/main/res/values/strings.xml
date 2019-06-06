@@ -24,4 +24,9 @@ Dafür muss aber genug Gemüse und Getreide da sein, um die Nachfrage weltweit z
 
 
 
+    <!--Profil2: aber diese Buttons sollten am Besten als Image-Button ersetzt werden-->
+    <string name="btn_prev">Prev</string>
+    <string name="btn_nxt">Next</string>
+
+
 </resources>

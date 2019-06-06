@@ -19,7 +19,6 @@
             android:id="@+id/imgswtch"
             android:layout_width="match_parent"
             android:layout_height="328dp"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true">
 
         </ImageSwitcher>
@@ -39,19 +38,20 @@
             android:layout_height="68dp"
             android:orientation="horizontal">
 
-            <Button
+            <Button style = "@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/btn_prev"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Vor" />
+                android:text="@string/btn_prev" />
 
-            <Button
+            <Button style = "@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/btn_next"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="next" />
+                android:text="@string/btn_nxt" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -62,13 +62,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/edit_query"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/edit" />
-
-            <Button
+            <Button style = "@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/speichern"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -3,6 +3,7 @@ package de.mobileanwendungen.kochenrezept;
 import android.app.Application;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -18,6 +19,8 @@ import android.widget.AdapterView;
 import android.widget.ImageButton;
 
 import java.util.ArrayList;
+
+import static android.support.constraint.Constraints.TAG;
 
 public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClickListner {
 
@@ -66,24 +69,36 @@ public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClic
     @Override
     public void onItemClick(int position) {
 
-        foodList.get(position);
+        rezept_detail fragment_detail = new rezept_detail();
+
+        Log.d(TAG, "onItemClick: CLICK2"+foodList.get(position));
+        System.out.println("FOODLIST POSITION" +foodList.get(position));
+        Log.d(TAG, "onItemClick: click" + position);
+
+
         int chosenpic;
 
-        rezept_detail fragment_detail = new rezept_detail();
-        ImageButton headerpic;
+        ImageButton headerpic = null;
 
         FragmentTransaction fr = getFragmentManager().beginTransaction();
 
         fr.replace(R.id.fragment_container, fragment_detail);
 
+        chosenpic = foodList.get(position).getImage();
+        Log.d(TAG, "onItemClick: click  " +chosenpic);
 
 
-        for(int i = 0; i < foodList.size();   i++){
-            chosenpic = foodList.get(i).getImage();
+
+
+
+
+        //for(int i = 0; i < foodList.size();   i++){
+          //  chosenpic = foodList.get(i).getImage();
+            //Log.d(TAG, "onItemClick: click  " +chosenpic);
 
           //  fragment_detail.setHeaderimg(chosenpic);
 
-        }
+        //}
 
         fr.commit();
     }

@@ -21,29 +21,38 @@ public class RezeptAdapter extends RecyclerView.Adapter<RezeptAdapter.ViewHolder
         void onItemClick (int position);
     }
 
-    RezeptAdapter(Context context, ArrayList<ModelFood> list){
+    RezeptAdapter(Context context, ArrayList<ModelFood> list, onItemClickListner onItemClickListner){
         mContext=context;
         mList = list;
+        this.mListener = onItemClickListner;
     }
 
-    public void setOnItemClickListener(onItemClickListner listener){
-        mListener = listener;
-    }
+   // public void setOnItemClickListener(onItemClickListner listener){
+    //    mListener = listener;
+    //}
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         ImageView item_image;
         TextView item_name;
+        onItemClickListner onItemClickListner;
 
-
-        public ViewHolder (View itemView){
+        public ViewHolder (View itemView, onItemClickListner onItemClickListner){
             super(itemView);
+
 
             item_image = itemView.findViewById(R.id.card_image);
             item_name = itemView.findViewById(R.id.card_text);
 
+            this.onItemClickListner = onItemClickListner;
+            itemView.setOnClickListener(this);
 
 
+        }
+
+        @Override
+        public void onClick(View v) {
+            onItemClickListner.onItemClick(getAdapterPosition());
         }
     }
 
@@ -54,7 +63,7 @@ public class RezeptAdapter extends RecyclerView.Adapter<RezeptAdapter.ViewHolder
         LayoutInflater layoutInflater = LayoutInflater.from(mContext);
         View view = layoutInflater.inflate(R.layout.rv_foot_items, viewGroup, false );
 
-        ViewHolder viewHolder = new ViewHolder(view);
+        ViewHolder viewHolder = new ViewHolder(view, mListener);
         return viewHolder;
     }
 

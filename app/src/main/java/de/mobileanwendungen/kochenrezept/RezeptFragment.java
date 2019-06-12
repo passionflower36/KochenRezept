@@ -1,9 +1,5 @@
 package de.mobileanwendungen.kochenrezept;
 
-import android.app.Application;
-import android.content.Intent;
-import android.content.res.Resources;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -11,16 +7,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ImageButton;
 
 import java.util.ArrayList;
-
-import static android.support.constraint.Constraints.TAG;
 
 public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClickListner {
 
@@ -34,13 +25,14 @@ public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClic
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
 
+
         View rootView =  inflater.inflate(R.layout.fragment_rezept, container, false);
         recyclerView = (RecyclerView) rootView.findViewById(R.id.rv);
 
         foodList = new ArrayList<>();
 
 
-
+        foodList.add(new ModelFood(R.drawable.obstsalat, "Fruit Salad"));
         foodList.add(new ModelFood(R.drawable.panke, "Pancakes"));
         foodList.add(new ModelFood(R.drawable.bolognese, "Bolognese"));
         foodList.add(new ModelFood(R.drawable.icetea, "Ice Tea"));
@@ -60,46 +52,59 @@ public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClic
 
 
 
-
      return rootView;
     }
-
 
 
     @Override
     public void onItemClick(int position) {
 
-        rezept_detail fragment_detail = new rezept_detail();
-
-        Log.d(TAG, "onItemClick: CLICK2"+foodList.get(position));
-        System.out.println("FOODLIST POSITION" +foodList.get(position));
-        Log.d(TAG, "onItemClick: click" + position);
-
-
-        int chosenpic;
-
-        ImageButton headerpic = null;
 
         FragmentTransaction fr = getFragmentManager().beginTransaction();
 
-        fr.replace(R.id.fragment_container, fragment_detail);
+        switch (position){
+            case 0:
+                fr.replace(R.id.fragment_container, new rezept_obstsalat());
+                fr.commit();
+                break;
+            case 1:
+                fr.replace(R.id.fragment_container, new rezept_pancake());
+                fr.commit();
+                break;
+            case 2:
+                fr.replace(R.id.fragment_container, new rezept_bolognese());
+                fr.commit();
+                break;
+            case 3:
+                fr.replace(R.id.fragment_container, new rezept_icetea());
+                fr.commit();
+                break;
+            case 4:
+                fr.replace(R.id.fragment_container, new rezept_waffle());
+                fr.commit();
+                break;
+        }
 
-        chosenpic = foodList.get(position).getImage();
-        Log.d(TAG, "onItemClick: click  " +chosenpic);
 
 
 
 
+       // ImageView headerpic = (ImageView) getView().findViewById(R.id.img_recipe);
+       // chosenpic = foodList.get(position).getImage();
+       // Log.d(TAG, "onItemClick: click  " +chosenpic);
+       // Log.d(TAG, "onItemClick: CLICK2"+foodList.get(position));
+      // System.out.println("FOODLIST POSITION" +foodList.get(position));
+       // Log.d(TAG, "onItemClick: click" + position);
+       // int chosenpic;
 
 
-        //for(int i = 0; i < foodList.size();   i++){
-          //  chosenpic = foodList.get(i).getImage();
-            //Log.d(TAG, "onItemClick: click  " +chosenpic);
 
-          //  fragment_detail.setHeaderimg(chosenpic);
+       // headerpic.setImageResource(chosenpic);
 
-        //}
+        //fragment_detail.setHeaderimg(headerpic);
 
-        fr.commit();
+
+
+
     }
 }

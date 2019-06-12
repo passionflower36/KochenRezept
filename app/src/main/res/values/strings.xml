@@ -47,7 +47,7 @@ Dafür muss aber genug Gemüse und Getreide da sein, um die Nachfrage weltweit z
 
     <!-- ************* REZEPT-DETAIL *****************-->
 
-    <string name="anleitung">Instructions</string>
+    <string name="anleitung">Anleitung</string>
     <string name="zutaten">Zutaten</string>
     <string name="mengen">Mengen</string>
 </resources>

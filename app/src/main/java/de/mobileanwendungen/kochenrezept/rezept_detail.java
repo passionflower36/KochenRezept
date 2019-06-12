@@ -8,18 +8,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 
 public class rezept_detail extends Fragment {
 
-    ImageButton headerimg;
+    ImageView headerimg;
 
 
-    public ImageButton getHeaderimg() {
+    public ImageView getHeaderimg() {
         return headerimg;
     }
 
-    public void setHeaderimg(ImageButton headerimg) {
+    public void setHeaderimg(ImageView headerimg) {
         this.headerimg = headerimg;
     }
 
@@ -29,7 +30,7 @@ public class rezept_detail extends Fragment {
         // Inflate the layout for this fragment
         View rootView =  inflater.inflate(R.layout.fragment_rezept_detail, container, false);
 
-        headerimg = (ImageButton) rootView.findViewById(R.id.img_recipe);
+        headerimg = (ImageView) rootView.findViewById(R.id.img_recipe);
 
         return rootView;
     }

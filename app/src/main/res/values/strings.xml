@@ -9,12 +9,36 @@
     <string name="title_home">Rezepte</string>
     <string name="food_name_1">Pancakes</string>
 
+    <!--**BOLOGNESE**-->
+    <string name="bolo_zutaten">Spagetti \nHackfleisch oder Sojagranulat \nTomaten\nZwiebeln\nKnoblauch\nOlivenöl\nOregano\nSalz\nPfeffer\nTomatenmark\nParmesan</string>
+    <string name="bolo_mengen">"500g\n500g\n6\n2\n1 Knolle\n50 ml\n2 TL\n\n\n1 Tube\netwas"</string>
+    <string name="bolo_anleitung">Zwiebeln in Scheiben schneiden, in eine Pfanne geben, salzen und in Öl glasig schmoren . Tomaten vom Strunk befreien und in Scheiben schneiden. Nord und Südpol entfernen. Zu den Zwiebeln geben. Einmal durchrühren und dann einen Teller drüberlegen, sodass der gesamte Inhalt der Pfanne unter dem Teller verborgen ist, und ca. 15 Minuten bei geringer Hitze schmoren lassen.
+Das Beefhack in eine zweite Pfanne geben und ohne die Zugabe von Fett braten, wobei mit einer Gabel das Hack auseinander gedrückt wird, bis sich das gesamte Hack in kleine braune Kügelchen oder Klümpchen verwandelt hat. Wenn die Zwiebeln und Tomaten zu einer weichen Masse geschmort sind, das Beefhack dazu geben sowie 4- 5 ungeschälte Knoblauchzehen.
+Jetzt die Spaghettis in Wasser mit Salz und einem guten Schuss Olivenöl aufsetzen.
+Dann den Inhalt der Tube Tomatenmark in die Pfanne dazugeben sowie nach Bedarf ca. 0.2 L Wasser.
+Das Wasser runterkochen lassen und hin- und wieder umrühren. Mit einer guten Portion Olivenöl auffüllen. Abermals aufkochen lassen und etwas Wasser dazu, damit die Soße nicht zu fest wird.
+Dann reichlich Oregano dazu, gut salzen und etwas Pfeffer. Zum Schluss noch eine Prise Zucker und bei bedarf noch etwas kleingeschnittener Knoblauch
+Die Spaghetti probieren und das Wasser abgießen, bevor sie keinen Wiederstand beim Biss mehr bieten. Spaghetti sowie die Pfanne mit der Soße auf den Tisch und mit geriebenen Parmesankäse servieren.</string>
+    <string name="bolo_aufwand">Arbeitszeit: ca. 45 Min. / Schwierigkeitsgrad: normal</string>
+    <string name="bolo_src">Quelle: chefkoch.de</string>
+
+
+    <!-- **OBSTSALAT**-->
+
+    <string name="obstsalat_zutaten">Kiwi\nOrange\nBanane\nBlaubeereen\nHimbeereen\nErdbeeren</string>
+    <string name="obstsalat_mengen">1\n1\n1\n4\n4\n3</string>
+    <string name="obstsalat_anleitung">Die Orange, die Banane und die Kiwi schälen, in Würfel schneiden und in eine Schale geben. Erdbeeren, Himbeeren und Blaubeeren waschen. Die Erdbeeren halbieren und mit den ganzeen Himbeeren und Blaubeeren in die Schüssel geben. Gut umrühren, damit sich die Säfte vermischen. Auf Wunsch kann auch etwas Honig hinzugefügt werden. </string>
+
     <!-- unbenutzt-->
 
-    <string name="food_name_2">Bolognese</string>
-    <string name="food_name_3">Bolognese</string>
-    <string name="food_name_4">Bolognese</string>
+
+
     <string name="food_name_5">Bolognese</string>
+
+
+
+
+
     <!-- ************* WISSEN-SEITE *****************-->
 
     <string name="title_dashboard">Wissen</string>

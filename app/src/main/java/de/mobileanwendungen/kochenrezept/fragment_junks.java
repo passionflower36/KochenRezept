@@ -31,7 +31,6 @@ public class fragment_junks extends Fragment {
         txtDetail.setTextSize(23);
 
 
-
         return rootView;
     }
 }

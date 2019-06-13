@@ -1,13 +1,23 @@
 <resources>
-    <string name="app_name">KochenRezept</string>
-    <string name="title_home">Rezepte</string>
-    <string name="title_dashboard">Wissen</string>
-    <string name="title_notifications">Profil</string>
-    <string name="werbistdu">Wer bist du?</string>
-    <string name="edit">Name eingeben</string>
-    <string name="speichern">Speichern</string>
 
-    <!-- Wissen-->
+
+    <string name="app_name">KochenRezept</string>
+    <string name="dots">...</string>
+
+
+    <!-- ************* REZEPTE-SEITE *****************-->
+    <string name="title_home">Rezepte</string>
+    <string name="food_name_1">Pancakes</string>
+
+    <!-- unbenutzt-->
+
+    <string name="food_name_2">Bolognese</string>
+    <string name="food_name_3">Bolognese</string>
+    <string name="food_name_4">Bolognese</string>
+    <string name="food_name_5">Bolognese</string>
+    <!-- ************* WISSEN-SEITE *****************-->
+
+    <string name="title_dashboard">Wissen</string>
     <string name="wissen">Die Ernährungspyramide</string>
     <string name="carbs">Kohlenhydrate</string>
     <string name="carbs_info">Zu viel Fett und zu viel Zucker machen dick und krank. Dennoch brauchen wir beide Nahrungsbestandteile zum Leben. Doch wie können wir unseren Kohlenhydrate-Bedarf künftig decken, wenn die Bevölkerungszahl weltweit schneller steigt als die Nahrungsmittel-Produktion? Zum Beispiel mit "Smart Breeding".
@@ -22,11 +32,23 @@ Dafür muss aber genug Gemüse und Getreide da sein, um die Nachfrage weltweit z
     <string name="proteins">Eiweiße von tierische Produkten</string>
     <string name="vegs">Obst und Gemüse</string>
 
+    <!-- ************* PROFIL-SEITE *****************-->
 
-
+    <string name="title_notifications">Profil</string>
+    <string name="werbistdu">Wer bist du?</string>
+    <string name="edit">Name eingeben</string>
+    <string name="speichern">Speichern</string>
     <!--Profil2: aber diese Buttons sollten am Besten als Image-Button ersetzt werden-->
     <string name="btn_prev">Prev</string>
     <string name="btn_nxt">Next</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- ************* REZEPT-DETAIL *****************-->
+
+    <string name="anleitung">Instructions</string>
+    <string name="zutaten">Zutaten</string>
+    <string name="mengen">Mengen</string>
+    <string name="zumSpiel">Zum Spiel</string>
 </resources>

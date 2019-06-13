@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class spielen extends AppCompatActivity {
     ImageView erdbeere, kiwi, orange, schale;
-    int countErdbeere = 0;
+    int countErdbeere, countOrange, countKiwi  = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +23,10 @@ public class spielen extends AppCompatActivity {
         orange = findViewById(R.id.orange);
         schale = findViewById(R.id.schale);
 
-        //-------Bilder für drag klickbar machen--
-       /* erdbeere.setOnClickListener(clickListener);
-        kiwi.setOnClickListener(clickListener);
-        orange.setOnClickListener(clickListener);*/
-
+        //-------Bilder für drag vorbereiten machen--
         erdbeere.setOnTouchListener(new MyTouchListener());
+        kiwi.setOnTouchListener(new MyTouchListener());
+        orange.setOnTouchListener(new MyTouchListener());
         //------Bilder als Ziel für drag vorbereiten--
         schale.setOnDragListener(dragListener);
 
@@ -70,11 +68,13 @@ public class spielen extends AppCompatActivity {
                     break;
                 case DragEvent.ACTION_DRAG_EXITED:
                     break;
+ //-----------Wenn Drop beendet wird, Anzahl der drops pro Frucht zaehlen----
                 case DragEvent.ACTION_DROP:
-                    if (view.getId() == R.id.erdbeere) {
-                        countErdbeere++;
-                        if (countErdbeere == 2) schale.setVisibility(View.INVISIBLE);
-                    }
+                    if (view == erdbeere) countErdbeere++;
+                    if (view == orange)countOrange++;
+                    if (view == kiwi) countKiwi++;
+ //----------Ueberprueft, ob Rezept erfuellt wurde---------------
+                    if( countOrange==1 && countErdbeere==4)schale.setVisibility(View.INVISIBLE);
                     break;
 
             }

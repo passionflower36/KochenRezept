@@ -38,7 +38,7 @@ public class spielen extends AppCompatActivity {
         if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
             ClipData data = ClipData.newPlainText("", "");
             View.DragShadowBuilder myShadowBuilder = new View.DragShadowBuilder(view);
-            view.startDragAndDrop(data, myShadowBuilder, view, 0);
+            view.startDrag(data, myShadowBuilder, view, 0);
             // view.setVisibility(View.INVISIBLE);
             return true;
         } else {
@@ -53,7 +53,7 @@ public class spielen extends AppCompatActivity {
         public void onClick(View v) {
             ClipData data = ClipData.newPlainText("", "");
             View.DragShadowBuilder myShadowBuilder = new View.DragShadowBuilder(v);
-            v.startDragAndDrop(data, myShadowBuilder, v, 0);
+            v.startDrag(data, myShadowBuilder, v, 0);
         }
     };
     //--------dragListener definieren---------------

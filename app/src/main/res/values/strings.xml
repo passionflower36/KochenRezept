@@ -1,13 +1,47 @@
 <resources>
-    <string name="app_name">KochenRezept</string>
-    <string name="title_home">Rezepte</string>
-    <string name="title_dashboard">Wissen</string>
-    <string name="title_notifications">Profil</string>
-    <string name="werbistdu">Wer bist du?</string>
-    <string name="edit">Name eingeben</string>
-    <string name="speichern">Speichern</string>
 
-    <!-- Wissen-->
+
+    <string name="app_name">KochenRezept</string>
+    <string name="dots">...</string>
+
+
+    <!-- ************* REZEPTE-SEITE *****************-->
+    <string name="title_home">Rezepte</string>
+    <string name="food_name_1">Pancakes</string>
+
+    <!--**BOLOGNESE**-->
+    <string name="bolo_zutaten">Spagetti \nHackfleisch oder Sojagranulat \nTomaten\nZwiebeln\nKnoblauch\nOlivenöl\nOregano\nSalz\nPfeffer\nTomatenmark\nParmesan</string>
+    <string name="bolo_mengen">"500g\n500g\n6\n2\n1 Knolle\n50 ml\n2 TL\n\n\n1 Tube\netwas"</string>
+    <string name="bolo_anleitung">Zwiebeln in Scheiben schneiden, in eine Pfanne geben, salzen und in Öl glasig schmoren . Tomaten vom Strunk befreien und in Scheiben schneiden. Nord und Südpol entfernen. Zu den Zwiebeln geben. Einmal durchrühren und dann einen Teller drüberlegen, sodass der gesamte Inhalt der Pfanne unter dem Teller verborgen ist, und ca. 15 Minuten bei geringer Hitze schmoren lassen.
+Das Beefhack in eine zweite Pfanne geben und ohne die Zugabe von Fett braten, wobei mit einer Gabel das Hack auseinander gedrückt wird, bis sich das gesamte Hack in kleine braune Kügelchen oder Klümpchen verwandelt hat. Wenn die Zwiebeln und Tomaten zu einer weichen Masse geschmort sind, das Beefhack dazu geben sowie 4- 5 ungeschälte Knoblauchzehen.
+Jetzt die Spaghettis in Wasser mit Salz und einem guten Schuss Olivenöl aufsetzen.
+Dann den Inhalt der Tube Tomatenmark in die Pfanne dazugeben sowie nach Bedarf ca. 0.2 L Wasser.
+Das Wasser runterkochen lassen und hin- und wieder umrühren. Mit einer guten Portion Olivenöl auffüllen. Abermals aufkochen lassen und etwas Wasser dazu, damit die Soße nicht zu fest wird.
+Dann reichlich Oregano dazu, gut salzen und etwas Pfeffer. Zum Schluss noch eine Prise Zucker und bei bedarf noch etwas kleingeschnittener Knoblauch
+Die Spaghetti probieren und das Wasser abgießen, bevor sie keinen Wiederstand beim Biss mehr bieten. Spaghetti sowie die Pfanne mit der Soße auf den Tisch und mit geriebenen Parmesankäse servieren.</string>
+    <string name="bolo_aufwand">Arbeitszeit: ca. 45 Min. / Schwierigkeitsgrad: normal</string>
+    <string name="bolo_src">Quelle: chefkoch.de</string>
+
+
+    <!-- **OBSTSALAT**-->
+
+    <string name="obstsalat_zutaten">Kiwi\nOrange\nBanane\nBlaubeereen\nHimbeereen\nErdbeeren</string>
+    <string name="obstsalat_mengen">1\n1\n1\n4\n4\n3</string>
+    <string name="obstsalat_anleitung">Die Orange, die Banane und die Kiwi schälen, in Würfel schneiden und in eine Schale geben. Erdbeeren, Himbeeren und Blaubeeren waschen. Die Erdbeeren halbieren und mit den ganzeen Himbeeren und Blaubeeren in die Schüssel geben. Gut umrühren, damit sich die Säfte vermischen. Auf Wunsch kann auch etwas Honig hinzugefügt werden. </string>
+
+    <!-- unbenutzt-->
+
+
+
+    <string name="food_name_5">Bolognese</string>
+
+
+
+
+
+    <!-- ************* WISSEN-SEITE *****************-->
+
+    <string name="title_dashboard">Wissen</string>
     <string name="wissen">Die Ernährungspyramide</string>
     <string name="carbs">Kohlenhydrate</string>
     <string name="carbs_info">Zu viel Fett und zu viel Zucker machen dick und krank. Dennoch brauchen wir beide Nahrungsbestandteile zum Leben. Doch wie können wir unseren Kohlenhydrate-Bedarf künftig decken, wenn die Bevölkerungszahl weltweit schneller steigt als die Nahrungsmittel-Produktion? Zum Beispiel mit "Smart Breeding".
@@ -16,17 +50,76 @@ Eigentlich brauchen wir keinen künstlich hergestellten Zucker, denn der Körper
 
 Dafür muss aber genug Gemüse und Getreide da sein, um die Nachfrage weltweit zu decken. Wie könnte man sicher für Nachschub sorgen – auch wenn die Weltbevölkerung stark wächst?</string>
 
+    <string name="carbs_info2">Um funktionieren zu können, braucht unser Körper Kohlenhydrate. Mit Kohle haben sie trotz ihres Namens nichts zu tun, stattdessen geht es um unsere Ernährung.
+
+Unser Körper braucht ständig Energie. Nicht nur, weil wir laufen, schwimmen oder Rad fahren wollen. Auch das Atmen, der Herzschlag, die gleichmäßige Körpertemperatur oder die Verdauung müssen in Schwung gehalten werden. Damit wir Energie bekommen, essen wir. In unserer Nahrung sind neben Eiweißen, Fetten, Mineralstoffen und Vitaminen auch Kohlenhydrate.
+
+Kohlenhydrate sind wichtig für den Körper. Unser Gehirn und unsere Muskeln brauchen sie, damit sie arbeiten können. Über das Blut gelangen sie in die Zellen und ermöglichen es dem Körper, seine Arbeit zu verrichten. Die Kohlenhydrate bestehen aus sogenannten Zuckermolekülen. Zu den Kohlenhydraten gehören aber nicht nur süß schmeckende Lebensmittel wie Obst oder Schokolade. Auch Brot, Kartoffeln oder Nudeln sind Kohlenhydrate.
+
+Experten schauen bei den Kohlenhydraten, wie viele Zuckerbausteine sie enthalten. Es gibt Einfachzucker, Zweifachzucker und Vielfachzucker. Dies zu wissen, ist für die Ernährung sehr wichtig. Denn die Kohlenhydrate werden im Körper unterschiedlich verarbeitet. Einfachzucker stecken beispielsweise im Obst, denn dort ist Fruchtzucker enthalten. Zu den Zweifachzuckern zählen Fachleute den Zucker, der in Süßigkeiten wie Gummibärchen und Schokolade steckt. Vielfachzucker sind vor allem in Getreide, Vollkornprodukten oder Kartoffeln enthalten.
+
+Kohlenhydrate haben oft einen schlechten Ruf, weil sie als Dickmacher gelten. Doch das stimmt nur bedingt. Denn Kartoffeln oder Nudeln beispielsweise haben gar nicht so viel Kalorien. Im Gegensatz zu Süßigkeiten muss der Körper die enthaltenen Vielfachzucker erst wieder in Einfachzucker zerlegen, damit sie verwertet werden können. Das sorgt dafür, dass wir nicht sofort wieder Heißhunger haben. Süßigkeiten kann der Körper sofort verwerten. Der Körper verlangt dann aber auch schnell wieder nach etwas Neuem. Das sorgt dafür, dass wir womöglich mehr essen und daher an Gewicht zulegen.
+
+</string>
+
+    <string name="carbs_src">Quelle: http://www.news4kids.de</string>
+    <string name="carbs_empfehlung">täglich angemessene Portionen</string>
+
     <string name="drinks">Getränke</string>
+    <string name="drinks_src">Quelle: https://www.onmeda.de/ernaehrung</string>
+    <string name="drinks_info">Die Basis und damit die unterste Ebene der Ernährungspyramide bilden Getränke. Flüssigkeit ist demnach die Grundlage einer gesunden Ernährung! Die Getränke sollten vor allem aus Wasser und Kräuter- oder Früchtetees bestehen. Verdünnen Sie Säfte mit reichlich Wasser, ansonsten enthalten sie zu viel Zucker.</string>
+    <string name="drinks_empfehlung">täglich mindestens 1,5l Mineralwasser</string>
     <string name="nutsoils">Nüsse und Öle</string>
-    <string name="junks">Junkfood und alkoholische Getränke</string>
+    <string name="nuts_info">Samen und Nüsse sind sehr gesund und sollten regelmäßig verzehrt werden. In den letzten Jahren wird vermehrt darauf hingewiesen, dass Samen und Nüsse durch die ungesättigten Fettsäuren gesund sind und der Körper regelmäßig damit versorgt werden sollte. Einig darüber sind sich die Wissenschaftler erst seit einigen Jahren, nachdem verschiedene Studien zum Verzehr von Samen und Nüsse gemacht wurden.</string>
+   <string name="oils_info">Mindestens ein Drittel der zugeführten Fettmenge sollte aus Ölen mit mehrfach ungesättigten Fettsäuren bestehen. Da Fette für den menschlichen Organismus wichtige Aufgaben erfüllen, kann die Fettzufuhr nur begrenzt gesenkt werden. Fette und Öle sind Träger essenzieller Fettsäuren, Träger fettlöslicher Vitamine wie Vitamin A, D, E, K und dem Provitamin Carotin. </string>
+    <string name="nuts_empfehlung">täglich einen Esslöffel hochwertiger Pflanzenöle und Nüsse</string>
+    <string name="nuts_src">Quelle: https://lebensmittel-warenkunde.de</string>
+
+    <string name="junks">Fettes, Süßes und salziges</string>
+    <string name="junks_empfehlung">maximal eine kleine Portion pro Tag</string>
+    <string name="junks_info">Süßigkeiten und Salziges bilden keine Grundlage für eine gesunde Ernährung, sondern bilden lediglich einen Luxus den wir uns alle gerne erlauben. Allerdings sollte das Naschen in Maßen gehalten werden und am besten nach einer Hauptmahlzeit passieren.</string>
+   <string name="junks_src">Quelle: eigener Text</string>
+
     <string name="proteins">Eiweiße von tierische Produkten</string>
+    <string name="proteins_info">Eiweiß kennt man aus den Eiern von Hühnern: Es ist eine weiße Masse, die man man auch kochen und essen kann. Wissenschaftler nennen Eiweiß Protein, sprich Pro-te-ihn. Protein findet man in allen Lebewesen, nicht nur bei Hühnern.
+
+Wie Kohlenhydrate und Fette sind die Eiweiße wichtig für die Menschen. Wer nicht genug Eiweiß zu sich nimmt, kann krank werden. Dank Eiweiß können Wunden heilen und neue Zellen entstehen. Ohne Eiweiß wächst man nicht gut und die Muskeln werden schwach.
+
+Kinder brauchen mehr Eiweiß als Erwachsene. Normalerweise ist aber im Essen genug Eiweiß. Nur manche Vegetarier müssen aufpassen, wenn sie nur Pflanzen essen und auch keine Eier oder Milch. Sie essen dafür Soja, Bohnen oder Nüsse – auch darin ist Eiweiß.</string>
+    <string name="proteins_src">Quelle: https://klexikon.zum.de/wiki</string>
+   <string name="proteins_empfehlung">täglich drei Portionen gesunder Milchprodukte und pro Woche 2x Fisch, 3x fettarmes Fleisch, 3x Eier </string>
+
     <string name="vegs">Obst und Gemüse</string>
+    <string name="veegs_info">Gemüse nennt man Teile von Pflanzen, die man essen kann. Man unterscheidet sie von Früchten und Getreide. Allerdings werden auch manche Früchte Gemüse genannt. Tomate, Paprika und Aubergine sind zum Beispiel eigentlich Früchte. Auf der Welt baut man am häufigsten an: Tomaten, Kartoffeln, Sojabohnen, Süßkartoffeln und verschiedene Arten von Kohl.
 
+Nicht alle Pflanzenteile sind essbar. Manche schmecken sauer, bitter oder sind sogar giftig. Bei der Kartoffel isst man nur die Knollen, die unter der Erde wachsen. Die Blätter, die über der Erde wachsen, sind ungenießbar und die Früchte giftig.
 
+Welche Teile einer Pflanze man isst, ist bei jeden Gemüse anders. Einige Beispiele: Kohl, Spinat und Salat sind die Blätter einer Pflanze. Spargel, Staudensellerie und Bohnenkeimlinge sind junge Triebe und Blattstiele einer Pflanze. Artischocken, Blumenkohl und Brokkoli sind die essbaren Blüten einer Pflanze und Karotte, Rote Bete und Weiße Rübe sind die Wurzeln.
 
+Gemüse kann man frisch auf Wochenmärkten oder im Supermarkt kaufen. Es gibt auch sehr viel tiefgekühltes Gemüse. Darin bleiben die gesunden Nährstoffe des Gemüses am längsten erhalten.</string>
+    <string name="vegs_empfehlung">täglich drei Portionen Gemüse, zwei Portionen Obst</string>
+    <string name="obst">Obst sind Früchte, die von Menschen gegessen werden können. Man kann sie roh essen, und meist enthalten sie viel Flüssigkeit. Oft sind sie auch süßer als Gemüse. Außerdem kommen sie von Pflanzen, die mehrere Jahre lang leben. Gemüse stammt hingegen von „einjährigen‟ Pflanzen. Die Unterscheidung zwischen Obst und Gemüse ist aber nicht immer ganz klar.
+
+Es ist gesund, Obst zu essen. Darin befinden sich viele Vitamine und andere Nährstoffe, die gut für den Körper sind. In Obst ist viel Wasser enthalten. Außerdem hat Obst sehr wenig Fett und Eiweiß. Eine Ausnahme davon sind zum Beispiel die Avocado und die Banane.
+
+Obst wächst auf Obstbäumen, an Sträuchern oder Stauden. Kommt das Obst von Bäumen in der freien Natur, spricht man von Wildobst. Fallobst ist Obst, das bereits vom Baum auf den Boden gefallen ist.</string>
+<string name="vegs_src">Quelle: https://klexikon.zum.de/wiki</string>
+    <!-- ************* PROFIL-SEITE *****************-->
+
+    <string name="title_notifications">Profil</string>
+    <string name="werbistdu">Wer bist du?</string>
+    <string name="edit">Name eingeben</string>
+    <string name="speichern">Speichern</string>
     <!--Profil2: aber diese Buttons sollten am Besten als Image-Button ersetzt werden-->
     <string name="btn_prev">Prev</string>
     <string name="btn_nxt">Next</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- ************* REZEPT-DETAIL *****************-->
+
+    <string name="anleitung">Anleitung</string>
+    <string name="zutaten">Zutaten</string>
+    <string name="mengen">Mengen</string>
 </resources>

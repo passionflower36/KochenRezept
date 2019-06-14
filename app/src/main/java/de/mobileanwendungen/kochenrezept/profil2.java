@@ -26,7 +26,7 @@ public class profil2 extends Fragment {
 
     //Image ID Array zum Switchen
 
-    int imageIds [] = {R.drawable.koch, R.drawable.opa, R.drawable.oma, R.drawable.fuchs, R.drawable.panda, R.drawable.ratatouille};
+    int imageIds [] = {R.drawable.koch, R.drawable.opa, R.drawable.oma, R.drawable.fuchs, R.drawable.panda, R.drawable.mickey, R.drawable.wizard};
     int count = imageIds.length;
     // to keep current Index of ImageID array
     int currentIndex = 0,indexPrevious = imageIds.length;
@@ -56,7 +56,7 @@ public class profil2 extends Fragment {
         });
 
         sw.setImageResource(imageIds[0]);
-        name.setText("Peter Lustig");
+        name.setText("Luigi");
 
         prev.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -73,11 +73,11 @@ public class profil2 extends Fragment {
 
                 switch (imageIds[currentIndex]){
                     case R.drawable.koch:
-                        name.setText("Peter Lustig");
+                        name.setText("Luigi");
                         break;
 
                     case R.drawable.fuchs:
-                        name.setText("Kochfuchs");
+                        name.setText("Falco");
                         break;
                     case R.drawable.panda:
                         name.setText("Eukalypto");
@@ -88,8 +88,11 @@ public class profil2 extends Fragment {
                     case R.drawable.oma:
                         name.setText("Omi");
                         break;
-                    case R.drawable.ratatouille:
-                        name.setText("Ratatouille");
+                    case R.drawable.mickey:
+                        name.setText("Mickey");
+                        break;
+                    case R.drawable.wizard:
+                        name.setText("Dummydore");
                         break;
                 }
 
@@ -112,11 +115,11 @@ public class profil2 extends Fragment {
 
                 switch (imageIds[currentIndex]){
                     case R.drawable.koch:
-                        name.setText("Peter Lustig");
+                        name.setText("Luigi");
                         break;
 
                     case R.drawable.fuchs:
-                        name.setText("Kochfuchs");
+                        name.setText("Falco");
                         break;
                     case R.drawable.panda:
                         name.setText("Eukalypto");
@@ -127,8 +130,11 @@ public class profil2 extends Fragment {
                     case R.drawable.oma:
                         name.setText("Omi");
                         break;
-                    case R.drawable.ratatouille:
-                        name.setText("Ratatouille");
+                    case R.drawable.mickey:
+                        name.setText("Mickey");
+                        break;
+                    case R.drawable.wizard:
+                        name.setText("Dummydore");
                         break;
                 }
             }

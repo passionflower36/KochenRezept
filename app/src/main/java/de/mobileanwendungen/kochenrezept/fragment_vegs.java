@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 public class fragment_vegs extends Fragment {
@@ -15,7 +17,30 @@ public class fragment_vegs extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_vegs, container, false);
+
+        View rootView =inflater.inflate(R.layout.fragment_vegs, container, false);
+
+        TextView txtEmpfehlung = (TextView) rootView.findViewById(R.id.text_vegs_empfehlung);
+        txtEmpfehlung.setText(R.string.vegs_empfehlung);
+        txtEmpfehlung.setMovementMethod(new ScrollingMovementMethod());
+
+        txtEmpfehlung.setTextSize(23);
+
+        TextView txtObst = (TextView) rootView.findViewById(R.id.text_obst);
+        txtObst.setText(R.string.obst);
+        txtObst.setMovementMethod(new ScrollingMovementMethod());
+
+        txtObst.setTextSize(23);
+
+        TextView txtVegs = (TextView) rootView.findViewById(R.id.text_veg);
+        txtVegs.setText(R.string.veegs_info);
+        txtVegs.setMovementMethod(new ScrollingMovementMethod());
+
+        txtVegs.setTextSize(23);
+
+
+        return rootView;
+
     }
 
 }

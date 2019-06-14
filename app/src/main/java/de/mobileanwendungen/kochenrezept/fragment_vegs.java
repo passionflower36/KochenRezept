@@ -17,6 +17,7 @@ public class fragment_vegs extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
         View rootView =inflater.inflate(R.layout.fragment_vegs, container, false);
 
         TextView txtEmpfehlung = (TextView) rootView.findViewById(R.id.text_vegs_empfehlung);
@@ -39,6 +40,7 @@ public class fragment_vegs extends Fragment {
 
 
         return rootView;
+
     }
 
 }

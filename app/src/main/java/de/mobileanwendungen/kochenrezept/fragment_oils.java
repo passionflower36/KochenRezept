@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+
 import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +20,7 @@ public class fragment_oils extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
         View rootView =  inflater.inflate(R.layout.fragment_oils, container, false);
 
         TextView txtEmpfehlung = (TextView) rootView.findViewById(R.id.text_nuts_empfehlung);
@@ -41,5 +43,6 @@ public class fragment_oils extends Fragment {
 
 
         return rootView;
+
     }
 }

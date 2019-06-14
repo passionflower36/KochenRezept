@@ -31,6 +31,15 @@ Die Spaghetti probieren und das Wasser abgießen, bevor sie keinen Wiederstand b
 
     <!-- unbenutzt-->
 
+    <string name="pancake_zutaten">Mehl \nMilch\nSalz\nEier\nMineralwasser\nButter zum Braten</string>
+    <string name="pancake_mengen">400g \n750 ml\n1 Prise\n3\n1 Schuss\netwas</string>
+    <string name="pancake_anleitung">Das Mehl, die Milch, die Eier und die Prise Salz mit dem Handrührgerät zu einem glatten Teig verrühren, bis dieser leichte Blasen wirft. Dann den Teig für ca. eine halbe Stunde im Kühlschrank ruhen lassen.
+        Dann den Teig aus dem Kühlschrank nehmen, noch einen guten Schuss Mineralwasser zufügen und nochmals kurz durchrühren.
+        Die Herdplatte anfangs auf höchster Stufe aufheizen und etwas Butter in die Pfanne geben.
+        Am gleichmäßigsten gelingen die Pfannkuchen so:
+        Die heiße Pfanne von der Kochstelle nehmen und die Butter durch geschicktes Schwenken gleichmäßig verteilen. Nun mit einem großen Schöpflöffel eine Kelle Teig in die heiße Pfanne geben und diesen ebenfalls durch Schwenken gleichmäßig verteilen.
+        Wichtig:
+        Nun auf jeden Fall lange genug warten, bis die Unterseite richtig schön gebräunt und der Pfannkuchen entsprechend fest geworden ist. Das merkt man ganz leicht, wenn man versucht den Pfannkuchen mit dem Pfannenwender anzuheben. Wenn das ganz einfach geht, dann kann man den Pfannkuchen problemlos wenden, ohne dass dieser zerreißt. Nun noch die zweite Seite schön goldgelb backen.</string>
 
 
     <string name="food_name_5">Bolognese</string>

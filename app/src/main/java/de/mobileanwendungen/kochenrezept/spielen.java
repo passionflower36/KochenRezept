@@ -11,9 +11,9 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class spielen extends AppCompatActivity {
-    ImageView erdbeere, kiwi, orange, schale, obstsalat, cancel, fertig;
-    ImageView banner;
-    int countErdbeere, countOrange, countKiwi  = 0;
+    ImageView erdbeere, kiwi, orange, schale, blaubeere, himbeere, banane;
+    ImageView banner, cancel, fertig;
+    int countErdbeere, countOrange, countKiwi, countBanane, countHimbeere, countBlaubeere = 0;
 
 
     @Override
@@ -27,6 +27,10 @@ public class spielen extends AppCompatActivity {
         erdbeere = findViewById(R.id.erdbeere);
         kiwi = findViewById(R.id.kiwi);
         orange = findViewById(R.id.orange);
+        blaubeere = findViewById(R.id.blaubeere);
+        himbeere = findViewById(R.id.himbeere);
+        banane = findViewById(R.id.banane);
+
         schale = findViewById(R.id.schale);
         cancel = findViewById(R.id.cancel);
         fertig = findViewById(R.id.fertig);
@@ -39,6 +43,9 @@ public class spielen extends AppCompatActivity {
         erdbeere.setOnTouchListener(new MyTouchListener());
         kiwi.setOnTouchListener(new MyTouchListener());
         orange.setOnTouchListener(new MyTouchListener());
+        blaubeere.setOnTouchListener(new MyTouchListener());
+        himbeere.setOnTouchListener(new MyTouchListener());
+        banane.setOnTouchListener(new MyTouchListener());
 
         //------Bilder als Ziel für drag vorbereiten--
         schale.setOnDragListener(dragListener);
@@ -87,6 +94,9 @@ public class spielen extends AppCompatActivity {
                     if (view == erdbeere) countErdbeere++;
                     if (view == orange)countOrange++;
                     if (view == kiwi) countKiwi++;
+                    if (view == himbeere) countHimbeere++;
+                    if (view == blaubeere) countBlaubeere++;
+                    if (view == banane) countBanane++;
                     break;
             }
             return true;
@@ -95,7 +105,8 @@ public class spielen extends AppCompatActivity {
 
 //--------Ueberprueft, ob Rezept erfuellt-----------------------
     public void success(){
-        if( countOrange==1 && countErdbeere==4){
+        if( countOrange==1 && countErdbeere==3 && countKiwi==1 && countBanane ==1 && countBlaubeere == 4
+        && countHimbeere ==4){
             schale.setImageResource(R.drawable.obstsalat);
             banner.setVisibility(View.VISIBLE);
         }else{

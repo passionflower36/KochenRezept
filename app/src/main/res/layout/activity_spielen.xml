@@ -21,6 +21,8 @@
         android:id="@+id/erdbeere"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
         app:layout_constraintBottom_toTopOf="@+id/gObst2"
         app:layout_constraintEnd_toStartOf="@+id/gH6"
         app:layout_constraintStart_toStartOf="@+id/gH5"
@@ -130,11 +132,11 @@
         app:layout_constraintGuide_percent="0.8" />
 
     <android.support.constraint.Guideline
-    android:id="@+id/gH6"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    app:layout_constraintGuide_percent="0.9" />
+        android:id="@+id/gH6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
 
     <android.support.constraint.Guideline
         android:id="@+id/gH7"
@@ -180,5 +182,38 @@
         app:layout_constraintStart_toStartOf="@+id/gH2"
         app:layout_constraintTop_toTopOf="@+id/gH7"
         app:srcCompat="@drawable/bannerok" />
+
+    <ImageView
+        android:id="@+id/banane"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/gObst2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gH6"
+        app:layout_constraintTop_toTopOf="@+id/gObst1"
+        app:srcCompat="@drawable/banane" />
+
+    <ImageView
+        android:id="@+id/blaubeere"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/gObst2"
+        app:layout_constraintEnd_toStartOf="@+id/gH2"
+        app:layout_constraintStart_toStartOf="@+id/gH1"
+        app:layout_constraintTop_toTopOf="@+id/gObst1"
+        app:srcCompat="@drawable/blaubeere" />
+
+    <ImageView
+        android:id="@+id/himbeere"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/gObst2"
+        app:layout_constraintEnd_toStartOf="@+id/gH1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gObst1"
+        app:srcCompat="@drawable/himbeere" />
 
 </android.support.constraint.ConstraintLayout>

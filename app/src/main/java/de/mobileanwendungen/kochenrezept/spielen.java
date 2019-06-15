@@ -6,11 +6,14 @@ import android.os.Bundle;
 import android.view.DragEvent;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class spielen extends AppCompatActivity {
-    ImageView erdbeere, kiwi, orange, schale;
+    ImageView erdbeere, kiwi, orange, schale, obstsalat, cancel, fertig;
+    ImageView banner;
     int countErdbeere, countOrange, countKiwi  = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,14 +25,24 @@ public class spielen extends AppCompatActivity {
         kiwi = findViewById(R.id.kiwi);
         orange = findViewById(R.id.orange);
         schale = findViewById(R.id.schale);
+        cancel = findViewById(R.id.cancel);
+        fertig = findViewById(R.id.fertig);
+        banner = findViewById(R.id.bannerok);
+
+        //-------unsichtbare Bilder-------------------
+        banner.setVisibility(View.INVISIBLE);
 
         //-------Bilder für drag vorbereiten machen--
         erdbeere.setOnTouchListener(new MyTouchListener());
         kiwi.setOnTouchListener(new MyTouchListener());
         orange.setOnTouchListener(new MyTouchListener());
+
         //------Bilder als Ziel für drag vorbereiten--
         schale.setOnDragListener(dragListener);
 
+        //------als clickbares Element vorbereiten-----
+        fertig.setOnClickListener(clickListener);
+        cancel.setOnClickListener(clickListener);
 
     }
 //-------------touchListener definieren--------------
@@ -39,7 +52,6 @@ public class spielen extends AppCompatActivity {
             ClipData data = ClipData.newPlainText("", "");
             View.DragShadowBuilder myShadowBuilder = new View.DragShadowBuilder(view);
             view.startDrag(data, myShadowBuilder, view, 0);
-            // view.setVisibility(View.INVISIBLE);
             return true;
         } else {
             return false;
@@ -51,9 +63,8 @@ public class spielen extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
-            ClipData data = ClipData.newPlainText("", "");
-            View.DragShadowBuilder myShadowBuilder = new View.DragShadowBuilder(v);
-            v.startDrag(data, myShadowBuilder, v, 0);
+           if (v==cancel) cancelCount();
+           if(v==fertig) success();
         }
     };
     //--------dragListener definieren---------------
@@ -73,15 +84,28 @@ public class spielen extends AppCompatActivity {
                     if (view == erdbeere) countErdbeere++;
                     if (view == orange)countOrange++;
                     if (view == kiwi) countKiwi++;
- //----------Ueberprueft, ob Rezept erfuellt wurde---------------
-                    if( countOrange==1 && countErdbeere==4)schale.setVisibility(View.INVISIBLE);
                     break;
-
             }
-
             return true;
         }
     };
 
-
+//--------Ueberprueft, ob Rezept erfuellt-----------------------
+    public void success(){
+        if( countOrange==1 && countErdbeere==4){
+            schale.setImageResource(R.drawable.obstsalat);
+            banner.setVisibility(View.VISIBLE);
+        }else{
+            banner.setImageResource(R.drawable.bannerschade);
+            banner.setVisibility(View.VISIBLE);
+        }
+    }
+    //-----abbrechen, count auf Null--------------------------
+    public void cancelCount(){
+        countErdbeere=0;
+        countKiwi=0;
+        schale.setImageResource(R.drawable.schale1);
+        banner.setVisibility(View.INVISIBLE);
+        banner.setImageResource(R.drawable.bannerok);
+    }
 }

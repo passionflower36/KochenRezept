@@ -1,6 +1,7 @@
 package de.mobileanwendungen.kochenrezept;
 
 import android.content.ClipData;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.DragEvent;
@@ -19,6 +20,8 @@ public class spielen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spielen);
+
+        popStart();
 
         //--------Fuellen der Variablen---------------
         erdbeere = findViewById(R.id.erdbeere);
@@ -107,5 +110,10 @@ public class spielen extends AppCompatActivity {
         schale.setImageResource(R.drawable.schale1);
         banner.setVisibility(View.INVISIBLE);
         banner.setImageResource(R.drawable.bannerok);
+    }
+    //------Pop-up starten------------------------------------------
+    public void popStart(){
+        Intent intent = new Intent( this, popUp.class);
+        startActivity(intent);
     }
 }

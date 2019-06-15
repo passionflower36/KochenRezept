@@ -238,9 +238,9 @@
         android:id="@+id/anzahlHimbeere"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
         android:fontFamily="casual"
         android:gravity="left|center_vertical"
-        android:layout_marginLeft="10dp"
         android:text="4"
         android:textColor="#ffffff"
         android:textSize="20dp"
@@ -264,9 +264,9 @@
         android:id="@+id/anzahlErdbeere"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
         android:fontFamily="casual"
         android:gravity="left|center_vertical"
-        android:layout_marginLeft="10dp"
         android:text="3"
         android:textColor="#ffffff"
         android:textSize="20dp"
@@ -275,5 +275,28 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="@+id/guideline11"
         app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/hilfe"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
 </android.support.constraint.ConstraintLayout>

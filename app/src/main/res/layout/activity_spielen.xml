@@ -8,6 +8,16 @@
     tools:context=".spielen">
 
     <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/gH8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/gH7"
+        app:srcCompat="@drawable/fuchs" />
+
+    <ImageView
         android:id="@+id/schale"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -56,15 +66,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.45" />
-    <!--app:layout_constraintGuide_begin="20dp"-->
-
 
     <android.support.constraint.Guideline
         android:id="@+id/gObst1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
         app:layout_constraintGuide_percent="0.65" />
 
     <android.support.constraint.Guideline
@@ -72,7 +79,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
         app:layout_constraintGuide_percent="0.85" />
 
     <android.support.constraint.Guideline
@@ -108,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-      app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_percent="0.2" />
 
     <android.support.constraint.Guideline
         android:id="@+id/gH3"
@@ -151,7 +157,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.25" />
-
 
     <ImageView
         android:id="@+id/fertig"
@@ -215,5 +220,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/gObst1"
         app:srcCompat="@drawable/himbeere" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       app:layout_constraintGuide_percent="0.45" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" />
 
 </android.support.constraint.ConstraintLayout>

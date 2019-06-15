@@ -123,4 +123,5 @@ Obst wächst auf Obstbäumen, an Sträuchern oder Stauden. Kommt das Obst von B�
     <!-- *********** SPIELANWEISUNG ++++++++++++++++-->
 
     <string name="spielanweisung">Ziehe die benötigten Zutaten in die Schale.</string>
+    <string name="hilfe">Wenn du die Hilfe brauchst, klicke auf deinen Helfer oben in der Mitte des Bildschirmes.</string>
 </resources>

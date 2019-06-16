@@ -7,14 +7,10 @@
 
     <!-- ************* REZEPTE-SEITE *****************-->
     <string name="title_home">Rezepte</string>
-    <string name="food_name_pfann">Pfannkuchen</string>
-    <string name="food_name_bolo">Spaghetti Bolognese</string>
-    <string name="food_name_icetea">Eistee</string>
-    <string name="food_name_waffles">Waffeln</string>
-    <string name="food_name_fruit">Obstsalat</string>
+    <string name="food_name_1">Pancakes</string>
 
     <!--**BOLOGNESE**-->
-    <string name="bolo_zutaten">Spaghetti \nHackfleisch oder Sojagranulat \nTomaten\nZwiebeln\nKnoblauch\nOlivenöl\nOregano\nSalz\nPfeffer\nTomatenmark\nParmesan</string>
+    <string name="bolo_zutaten">Spagetti \nHackfleisch oder Sojagranulat \nTomaten\nZwiebeln\nKnoblauch\nOlivenöl\nOregano\nSalz\nPfeffer\nTomatenmark\nParmesan</string>
     <string name="bolo_mengen">"500g\n500g\n6\n2\n1 Knolle\n50 ml\n2 TL\n\n\n1 Tube\netwas"</string>
     <string name="bolo_anleitung">Zwiebeln in Scheiben schneiden, in eine Pfanne geben, salzen und in Öl glasig schmoren . Tomaten vom Strunk befreien und in Scheiben schneiden. Nord und Südpol entfernen. Zu den Zwiebeln geben. Einmal durchrühren und dann einen Teller drüberlegen, sodass der gesamte Inhalt der Pfanne unter dem Teller verborgen ist, und ca. 15 Minuten bei geringer Hitze schmoren lassen.
 Das Beefhack in eine zweite Pfanne geben und ohne die Zugabe von Fett braten, wobei mit einer Gabel das Hack auseinander gedrückt wird, bis sich das gesamte Hack in kleine braune Kügelchen oder Klümpchen verwandelt hat. Wenn die Zwiebeln und Tomaten zu einer weichen Masse geschmort sind, das Beefhack dazu geben sowie 4- 5 ungeschälte Knoblauchzehen.
@@ -23,8 +19,8 @@ Dann den Inhalt der Tube Tomatenmark in die Pfanne dazugeben sowie nach Bedarf c
 Das Wasser runterkochen lassen und hin- und wieder umrühren. Mit einer guten Portion Olivenöl auffüllen. Abermals aufkochen lassen und etwas Wasser dazu, damit die Soße nicht zu fest wird.
 Dann reichlich Oregano dazu, gut salzen und etwas Pfeffer. Zum Schluss noch eine Prise Zucker und bei bedarf noch etwas kleingeschnittener Knoblauch
 Die Spaghetti probieren und das Wasser abgießen, bevor sie keinen Wiederstand beim Biss mehr bieten. Spaghetti sowie die Pfanne mit der Soße auf den Tisch und mit geriebenen Parmesankäse servieren.</string>
-    <string name="bolo_src">Quelle: chefkoch.de</string>
     <string name="bolo_aufwand">Arbeitszeit: ca. 45 Min. / Schwierigkeitsgrad: normal</string>
+    <string name="bolo_src">Quelle: chefkoch.de</string>
 
 
     <!-- **OBSTSALAT**-->
@@ -32,33 +28,12 @@ Die Spaghetti probieren und das Wasser abgießen, bevor sie keinen Wiederstand b
     <string name="obstsalat_zutaten">Kiwi\nOrange\nBanane\nBlaubeereen\nHimbeereen\nErdbeeren</string>
     <string name="obstsalat_mengen">1\n1\n1\n4\n4\n3</string>
     <string name="obstsalat_anleitung">Die Orange, die Banane und die Kiwi schälen, in Würfel schneiden und in eine Schale geben. Erdbeeren, Himbeeren und Blaubeeren waschen. Die Erdbeeren halbieren und mit den ganzeen Himbeeren und Blaubeeren in die Schüssel geben. Gut umrühren, damit sich die Säfte vermischen. Auf Wunsch kann auch etwas Honig hinzugefügt werden. </string>
-    <string name="fruit_aufwand">Arbeitszeit: ca. 15 Min. / Schwierigkeitsgrad: einfach</string>
+
     <!-- unbenutzt-->
 
-    <!--*****PANCAKES**-->
-
-    <string name="pancake_zutaten">Mehl \nMilch\nSalz\nEier\nMineralwasser\nButter zum Braten</string>
-    <string name="pancake_mengen">400g \n750 ml\n1 Prise\n3\n1 Schuss\netwas</string>
-    <string name="pancake_anleitung">Das Mehl, die Milch, die Eier und die Prise Salz mit dem Handrührgerät zu einem glatten Teig verrühren, bis dieser leichte Blasen wirft. Dann den Teig für ca. eine halbe Stunde im Kühlschrank ruhen lassen.
-        Dann den Teig aus dem Kühlschrank nehmen, noch einen guten Schuss Mineralwasser zufügen und nochmals kurz durchrühren.
-        Die Herdplatte anfangs auf höchster Stufe aufheizen und etwas Butter in die Pfanne geben.
-        Am gleichmäßigsten gelingen die Pfannkuchen so:
-        Die heiße Pfanne von der Kochstelle nehmen und die Butter durch geschicktes Schwenken gleichmäßig verteilen. Nun mit einem großen Schöpflöffel eine Kelle Teig in die heiße Pfanne geben und diesen ebenfalls durch Schwenken gleichmäßig verteilen.
-        Wichtig:
-        Nun auf jeden Fall lange genug warten, bis die Unterseite richtig schön gebräunt und der Pfannkuchen entsprechend fest geworden ist. Das merkt man ganz leicht, wenn man versucht den Pfannkuchen mit dem Pfannenwender anzuheben. Wenn das ganz einfach geht, dann kann man den Pfannkuchen problemlos wenden, ohne dass dieser zerreißt. Nun noch die zweite Seite schön goldgelb backen.</string>
-
-    <string name="pancake_aufwand">Arbeitszeit: ca. 30 Min. / Schwierigkeitsgrad: normal</string>
-
-    <!--*****ICE TEA**-->
-
-    <string name="eistee_zutaten">Schwarzer Tee \nWasser\nZitrone\nHonig\nPfirsichnektar</string>
-    <string name="eistee_mengen">2 Beutel \n500 ml\n1\n1 Esslöffel\n6 Esslöffel</string>
-    <string name="eistee_anleitung">Das Wasser im Wasserkocher kochen und in eine Kanne füllen. Die Teebeutel reinlegen und 5 Minuten ziehen lassen. Danach die Zitrone auspressen und den Saft in die Kanne gießen. Nun den Honig in das heiße Wasser verrührern und den Pfirsichnektar dazugeben. Dein Eistee wird aber nur zum Eistee, wenn du ihn 1 Stunde kühlen lässt und Eiswürfeel dazugibts.</string>
-
-    <string name="eistee_aufwand">Arbeitszeit: ca. 15 Min. / Schwierigkeitsgrad: einfach</string>
 
 
-
+    <string name="food_name_5">Bolognese</string>
 
 
 
@@ -136,8 +111,8 @@ Obst wächst auf Obstbäumen, an Sträuchern oder Stauden. Kommt das Obst von B�
     <string name="edit">Name eingeben</string>
     <string name="speichern">Speichern</string>
     <!--Profil2: aber diese Buttons sollten am Besten als Image-Button ersetzt werden-->
-    <string name="btn_prev">zurück</string>
-    <string name="btn_nxt">vor</string>
+    <string name="btn_prev">Prev</string>
+    <string name="btn_nxt">Next</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

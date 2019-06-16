@@ -16,7 +16,7 @@
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="300dp"
             app:contentScrim="@color/colorPrimary"
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
@@ -25,7 +25,8 @@
             <ImageButton
                 android:id="@+id/btn_pancake"
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
+                android:paddingTop="20dp"
                 app:srcCompat="@drawable/panke"
                 android:contentDescription="@string/app_name"
                 android:fitsSystemWindows="true"

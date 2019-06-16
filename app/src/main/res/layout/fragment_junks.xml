@@ -32,6 +32,9 @@
                 android:contentDescription="@string/app_name"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerInside"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
                 android:src="@drawable/button_junks" />
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -57,10 +60,10 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="20dp"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
-                android:gravity="center_vertical" />
+                android:textColor="@color/colorAccent"
+                android:gravity="center" />
 
             <android.support.v7.widget.CardView
                 app:cardUseCompatPadding="true"
@@ -78,7 +81,7 @@
                 android:paddingRight="16dp"
                 android:paddingBottom="16dp"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15sp" />
 
             </android.support.v7.widget.CardView>
 

@@ -51,9 +51,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="20dp"
-                android:textSize="20sp"
+                android:textSize="25dp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
                 android:gravity="center_vertical"/>
 
 
@@ -74,7 +74,7 @@
                         android:paddingRight="14dp"
                         android:layout_marginTop="14dp"
                         android:text="@string/zutaten"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/colorAccent"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                     <LinearLayout
@@ -88,13 +88,15 @@
                             android:orientation="vertical"
                             android:layout_weight="1">
                             <TextView
-                                android:id="@+id/ingredient"
+                                android:id="@+id/measure"
                                 android:paddingLeft="14dp"
                                 android:paddingRight="14dp"
                                 android:textSize="16sp"
-                                android:textColor="@color/textPrimary"
+                                android:textColor="@color/colorAccent"
                                 android:layout_width="match_parent"
+                                android:text="@string/eistee_mengen"
                                 android:layout_height="wrap_content" />
+
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -102,11 +104,12 @@
                             android:orientation="vertical"
                             android:layout_weight="1">
                             <TextView
-                                android:id="@+id/measure"
+                                android:id="@+id/ingredient"
                                 android:paddingLeft="14dp"
                                 android:paddingRight="14dp"
                                 android:textSize="16sp"
-                                android:textColor="@color/colorAccent"
+                                android:text="@string/eistee_zutaten"
+                                android:textColor="@color/textPrimary"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content" />
                         </LinearLayout>
@@ -122,7 +125,7 @@
                 android:layout_marginTop="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
                 android:gravity="center_vertical"
                 android:drawablePadding="10dp"
                 android:drawableEnd="@drawable/ic_info"

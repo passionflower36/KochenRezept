@@ -32,11 +32,11 @@ public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClic
         foodList = new ArrayList<>();
 
 
-        foodList.add(new ModelFood(R.drawable.obstsalat, "Fruit Salad"));
-        foodList.add(new ModelFood(R.drawable.panke, "Pancakes"));
-        foodList.add(new ModelFood(R.drawable.bolognese, "Bolognese"));
-        foodList.add(new ModelFood(R.drawable.icetea, "Ice Tea"));
-        foodList.add(new ModelFood(R.drawable.waffles, "Waffles"));
+        foodList.add(new ModelFood(R.drawable.obstsalat, "Obstsalat"));
+        foodList.add(new ModelFood(R.drawable.panke, "Pfannkuchen"));
+        foodList.add(new ModelFood(R.drawable.bolognese, "Spaghetti Bolognese"));
+        foodList.add(new ModelFood(R.drawable.icetea, "Eistee"));
+        foodList.add(new ModelFood(R.drawable.waffles, "Waffeln"));
 
 
 

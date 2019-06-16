@@ -44,6 +44,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/food_name_bolo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_vertical" />
+
 
             <android.support.v7.widget.CardView
                 app:cardUseCompatPadding="true"

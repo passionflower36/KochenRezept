@@ -44,6 +44,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/food_name_fruit"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_vertical" />
+
 
 
 
@@ -64,7 +76,7 @@
                         android:layout_marginTop="14dp"
                         android:paddingBottom="16dp"
                         android:text="@string/zutaten"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/colorAccent"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                     <LinearLayout
@@ -116,11 +128,34 @@
                 android:layout_marginTop="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
                 android:gravity="center_vertical"
                 android:drawablePadding="10dp"
                 android:drawableEnd="@drawable/ic_info"
                 android:drawableRight="@drawable/ic_info" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+
+
+
+                <TextView
+                    android:id="@+id/aufwand"
+                    android:text="@string/fruit_aufwand"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/textPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
 
 
         <android.support.v7.widget.CardView
@@ -145,8 +180,9 @@
                 android:layout_height="wrap_content" />
         </android.support.v7.widget.CardView>
 
-            <Button
+            <Button style = "@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/zumSpiel"
+                android:textColor="@color/windowBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"

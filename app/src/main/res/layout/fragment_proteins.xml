@@ -10,6 +10,7 @@
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
+        android:layout_marginTop="16dp"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:fitsSystemWindows="true">
@@ -24,13 +25,16 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
-                android:id="@+id/img_carbs"
+                android:id="@+id/img_proteins"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:background="@color/windowBackground"
                 android:contentDescription="@string/app_name"
                 android:fitsSystemWindows="true"
-                android:scaleType="fitCenter"
+                android:scaleType="centerInside"
+                android:paddingTop="30dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
                 android:src="@drawable/button_proteins" />
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -56,10 +60,10 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="20dp"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
-                android:gravity="center_vertical" />
+                android:textColor="@color/colorAccent"
+                android:gravity="center" />
 
             <android.support.v7.widget.CardView
                 app:cardUseCompatPadding="true"

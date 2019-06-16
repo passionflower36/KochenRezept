@@ -32,11 +32,7 @@ Die Spaghetti probieren und das Wasser abgießen, bevor sie keinen Wiederstand b
     <!-- unbenutzt-->
 
 
-
     <string name="food_name_5">Bolognese</string>
-
-
-
 
 
     <!-- ************* WISSEN-SEITE *****************-->
@@ -71,14 +67,14 @@ Kohlenhydrate haben oft einen schlechten Ruf, weil sie als Dickmacher gelten. Do
     <string name="drinks_empfehlung">täglich mindestens 1,5l Mineralwasser</string>
     <string name="nutsoils">Nüsse und Öle</string>
     <string name="nuts_info">Samen und Nüsse sind sehr gesund und sollten regelmäßig verzehrt werden. In den letzten Jahren wird vermehrt darauf hingewiesen, dass Samen und Nüsse durch die ungesättigten Fettsäuren gesund sind und der Körper regelmäßig damit versorgt werden sollte. Einig darüber sind sich die Wissenschaftler erst seit einigen Jahren, nachdem verschiedene Studien zum Verzehr von Samen und Nüsse gemacht wurden.</string>
-   <string name="oils_info">Mindestens ein Drittel der zugeführten Fettmenge sollte aus Ölen mit mehrfach ungesättigten Fettsäuren bestehen. Da Fette für den menschlichen Organismus wichtige Aufgaben erfüllen, kann die Fettzufuhr nur begrenzt gesenkt werden. Fette und Öle sind Träger essenzieller Fettsäuren, Träger fettlöslicher Vitamine wie Vitamin A, D, E, K und dem Provitamin Carotin. </string>
+    <string name="oils_info">Mindestens ein Drittel der zugeführten Fettmenge sollte aus Ölen mit mehrfach ungesättigten Fettsäuren bestehen. Da Fette für den menschlichen Organismus wichtige Aufgaben erfüllen, kann die Fettzufuhr nur begrenzt gesenkt werden. Fette und Öle sind Träger essenzieller Fettsäuren, Träger fettlöslicher Vitamine wie Vitamin A, D, E, K und dem Provitamin Carotin. </string>
     <string name="nuts_empfehlung">täglich einen Esslöffel hochwertiger Pflanzenöle und Nüsse</string>
     <string name="nuts_src">Quelle: https://lebensmittel-warenkunde.de</string>
 
     <string name="junks">Fettes, Süßes und salziges</string>
     <string name="junks_empfehlung">maximal eine kleine Portion pro Tag</string>
     <string name="junks_info">Süßigkeiten und Salziges bilden keine Grundlage für eine gesunde Ernährung, sondern bilden lediglich einen Luxus den wir uns alle gerne erlauben. Allerdings sollte das Naschen in Maßen gehalten werden und am besten nach einer Hauptmahlzeit passieren.</string>
-   <string name="junks_src">Quelle: eigener Text</string>
+    <string name="junks_src">Quelle: eigener Text</string>
 
     <string name="proteins">Eiweiße von tierische Produkten</string>
     <string name="proteins_info">Eiweiß kennt man aus den Eiern von Hühnern: Es ist eine weiße Masse, die man man auch kochen und essen kann. Wissenschaftler nennen Eiweiß Protein, sprich Pro-te-ihn. Protein findet man in allen Lebewesen, nicht nur bei Hühnern.
@@ -87,7 +83,7 @@ Wie Kohlenhydrate und Fette sind die Eiweiße wichtig für die Menschen. Wer nic
 
 Kinder brauchen mehr Eiweiß als Erwachsene. Normalerweise ist aber im Essen genug Eiweiß. Nur manche Vegetarier müssen aufpassen, wenn sie nur Pflanzen essen und auch keine Eier oder Milch. Sie essen dafür Soja, Bohnen oder Nüsse – auch darin ist Eiweiß.</string>
     <string name="proteins_src">Quelle: https://klexikon.zum.de/wiki</string>
-   <string name="proteins_empfehlung">täglich drei Portionen gesunder Milchprodukte und pro Woche 2x Fisch, 3x fettarmes Fleisch, 3x Eier </string>
+    <string name="proteins_empfehlung">täglich drei Portionen gesunder Milchprodukte und pro Woche 2x Fisch, 3x fettarmes Fleisch, 3x Eier </string>
 
     <string name="vegs">Obst und Gemüse</string>
     <string name="veegs_info">Gemüse nennt man Teile von Pflanzen, die man essen kann. Man unterscheidet sie von Früchten und Getreide. Allerdings werden auch manche Früchte Gemüse genannt. Tomate, Paprika und Aubergine sind zum Beispiel eigentlich Früchte. Auf der Welt baut man am häufigsten an: Tomaten, Kartoffeln, Sojabohnen, Süßkartoffeln und verschiedene Arten von Kohl.
@@ -103,7 +99,7 @@ Gemüse kann man frisch auf Wochenmärkten oder im Supermarkt kaufen. Es gibt au
 Es ist gesund, Obst zu essen. Darin befinden sich viele Vitamine und andere Nährstoffe, die gut für den Körper sind. In Obst ist viel Wasser enthalten. Außerdem hat Obst sehr wenig Fett und Eiweiß. Eine Ausnahme davon sind zum Beispiel die Avocado und die Banane.
 
 Obst wächst auf Obstbäumen, an Sträuchern oder Stauden. Kommt das Obst von Bäumen in der freien Natur, spricht man von Wildobst. Fallobst ist Obst, das bereits vom Baum auf den Boden gefallen ist.</string>
-<string name="vegs_src">Quelle: https://klexikon.zum.de/wiki</string>
+    <string name="vegs_src">Quelle: https://klexikon.zum.de/wiki</string>
     <!-- ************* PROFIL-SEITE *****************-->
 
     <string name="title_notifications">Profil</string>
@@ -122,4 +118,10 @@ Obst wächst auf Obstbäumen, an Sträuchern oder Stauden. Kommt das Obst von B�
     <string name="anleitung">Anleitung</string>
     <string name="zutaten">Zutaten</string>
     <string name="mengen">Mengen</string>
+    <string name="zumSpiel">zum Spiel</string>
+
+    <!-- *********** SPIELANWEISUNG ++++++++++++++++-->
+
+    <string name="spielanweisung">Ziehe die benötigten Zutaten in die Schale.</string>
+    <string name="hilfe">Wenn du die Hilfe brauchst, klicke auf deinen Helfer oben in der Mitte des Bildschirmes.</string>
 </resources>

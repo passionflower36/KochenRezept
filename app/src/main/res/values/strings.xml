@@ -1,7 +1,7 @@
 <resources>
 
 
-    <string name="app_name">KochenRezept</string>
+    <string name="app_name">Fruti</string>
     <string name="dots">...</string>
 
 
@@ -158,4 +158,7 @@ Obst wächst auf Obstbäumen, an Sträuchern oder Stauden. Kommt das Obst von B�
 
     <string name="spielanweisung">Ziehe die benötigten Zutaten in die Schale.</string>
     <string name="hilfe">Wenn du die Hilfe brauchst, klicke auf deinen Helfer oben in der Mitte des Bildschirmes.</string>
+    <string name="reset">zurücksetzen</string>
+    <string name="fertig">ok</string>
+    <string name="rezeptbuch">Rezept</string>
 </resources>

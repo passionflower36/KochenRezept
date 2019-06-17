@@ -11,11 +11,25 @@
         android:id="@+id/avatar"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/gH8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/gH7"
         app:srcCompat="@drawable/fuchs" />
+
+    <TextView
+        android:id="@+id/rezeptbuch"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:text="@string/rezeptbuch"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gH8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
 
     <ImageView
         android:id="@+id/schale"
@@ -53,7 +67,6 @@
         android:id="@+id/orange"
         android:layout_width="0dp"
         android:layout_height="0dp"
-
         app:layout_constraintBottom_toTopOf="@+id/gObst2"
         app:layout_constraintEnd_toStartOf="@+id/gH3"
         app:layout_constraintStart_toStartOf="@+id/gH2"
@@ -149,6 +162,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintGuide_percent="0.05" />
 
     <android.support.constraint.Guideline
@@ -162,21 +176,59 @@
         android:id="@+id/fertig"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/gH8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toStartOf="@+id/gH6"
         app:layout_constraintStart_toStartOf="@+id/gH5"
         app:layout_constraintTop_toTopOf="@+id/gH7"
         app:srcCompat="@drawable/fertig" />
 
+    <TextView
+        android:id="@+id/okbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        android:text="@string/fertig"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gH8"
+        app:layout_constraintEnd_toStartOf="@+id/gH6"
+        app:layout_constraintStart_toStartOf="@+id/gH5"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
     <ImageView
         android:id="@+id/cancel"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/gH8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toStartOf="@+id/gH2"
         app:layout_constraintStart_toStartOf="@+id/gH1"
         app:layout_constraintTop_toTopOf="@+id/gH7"
         app:srcCompat="@drawable/cancel" />
+
+    <TextView
+        android:id="@+id/reset"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:text="@string/reset"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gH8"
+        app:layout_constraintEnd_toStartOf="@+id/gH3"
+        app:layout_constraintStart_toStartOf="@+id/gHLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textSize="20sp"
+        app:layout_constraintGuide_percent="0.15"
+        android:text="@string/reset"/>
 
     <ImageView
         android:id="@+id/bannerok"
@@ -226,7 +278,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-       app:layout_constraintGuide_percent="0.45" />
+        app:layout_constraintGuide_percent="0.45" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline5"
@@ -234,5 +286,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.55" />
+
+
+
 
 </android.support.constraint.ConstraintLayout>

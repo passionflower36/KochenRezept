@@ -32,7 +32,7 @@ public class profil2 extends Fragment {
 
     //Image ID Array zum Switchen
 
-    int imageIds [] = {R.drawable.koch, R.drawable.opa, R.drawable.oma, R.drawable.fuchs, R.drawable.panda, R.drawable.mickey, R.drawable.wizard};
+    int imageIds [] = {R.drawable.logo_apfel, R.drawable.logo_banane, R.drawable.logo_birne, R.drawable.logo_orange};
     int count = imageIds.length;
     // to keep current Index of ImageID array
     int currentIndex = 0,indexPrevious = imageIds.length;
@@ -63,7 +63,7 @@ public class profil2 extends Fragment {
         });
 
         sw.setImageResource(imageIds[0]);
-        name.setText("Luigi");
+        name.setText("Anton Apfel");
         tag=1;
 
         prev.setOnClickListener(new View.OnClickListener(){
@@ -80,35 +80,23 @@ public class profil2 extends Fragment {
                 //Namen anpassen
 
                 switch (imageIds[currentIndex]){
-                    case R.drawable.koch:
-                        name.setText("Luigi");
+                    case R.drawable.logo_apfel:
+                        name.setText("Anton Apfel");
                         tag = 1;
                         break;
 
-                    case R.drawable.fuchs:
-                        name.setText("Falco");
+                    case R.drawable.logo_banane:
+                        name.setText("Bernd Banane");
                         tag = 2;
                         break;
-                    case R.drawable.panda:
-                        name.setText("Eukalypto");
+                    case R.drawable.logo_birne:
+                        name.setText("Bella Birne");
                         tag = 3;
                         break;
-                    case R.drawable.opa:
-                        name.setText("Opa");
+                    case R.drawable.logo_orange:
+                        name.setText("Olaf Orange");
                         tag = 4;
                     break;
-                    case R.drawable.oma:
-                        name.setText("Omi");
-                        tag =5;
-                        break;
-                    case R.drawable.mickey:
-                        name.setText("Mickey");
-                        tag =6;
-                        break;
-                    case R.drawable.wizard:
-                        name.setText("Dummydore");
-                        tag = 7;
-                        break;
                 }
 
             }
@@ -129,33 +117,21 @@ public class profil2 extends Fragment {
                 //Namen anpassen
 
                 switch (imageIds[currentIndex]){
-                    case R.drawable.koch:
-                        name.setText("Luigi");
+                    case R.drawable.logo_apfel:
+                        name.setText("Anton Apfel");
                         tag = 1;
                         break;
-                    case R.drawable.fuchs:
-                        name.setText("Falco");
+                    case R.drawable.logo_banane:
+                        name.setText("Bernd Banane");
                         tag = 2;
                         break;
-                    case R.drawable.panda:
-                        name.setText("Eukalypto");
+                    case R.drawable.logo_birne:
+                        name.setText("Bella Birne");
                         tag = 3;
                         break;
-                    case R.drawable.opa:
-                        name.setText("Opa");
+                    case R.drawable.logo_orange:
+                        name.setText("Olaf Orange");
                         tag = 4;
-                        break;
-                    case R.drawable.oma:
-                        name.setText("Omi");
-                        tag = 5;
-                        break;
-                    case R.drawable.mickey:
-                        name.setText("Mickey");
-                        tag = 6;
-                        break;
-                    case R.drawable.wizard:
-                        name.setText("Dummydore");
-                        tag = 7;
                         break;
                 }
             }

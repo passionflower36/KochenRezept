@@ -31,6 +31,7 @@
                 android:contentDescription="@string/app_name"
                 android:fitsSystemWindows="true"
                 android:scaleType="fitCenter"
+                android:padding="10dp"
                 android:src="@drawable/button_drinks" />
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -53,10 +54,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/drinks"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="16dp"
+                android:textAlignment="center"
                 android:layout_marginTop="20dp"
                 android:textSize="25sp"
+                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:textColor="@color/colorAccent"
                 android:gravity="center" />
@@ -72,12 +73,12 @@
                     android:id="@+id/text_drinks_empfehlung"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingTop="16dp"
-                    android:paddingRight="16dp"
-                    android:paddingBottom="16dp"
+                    android:layout_margin="10dp"
                     android:textStyle="bold"
-                    android:textSize="16dp" />
+                   android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"/>
 
             </android.support.v7.widget.CardView>
 
@@ -94,9 +95,8 @@
                     android:id="@+id/text_drinks"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingTop="16dp"
-                    android:paddingRight="16dp" />
+                    android:textSize="15sp"
+                    android:layout_margin="10dp" />
 
             </android.support.v7.widget.CardView>
 
@@ -111,11 +111,10 @@
                     android:id="@+id/drinks_src"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingTop="16dp"
-                    android:paddingBottom="16dp"
-                    android:text="@string/carbs_src"
-                    android:paddingRight="16dp" />
+                    android:text="@string/drinks2"
+                    android:textSize="16sp"
+                    android:layout_margin="10dp"
+                     />
 
             </android.support.v7.widget.CardView>
 

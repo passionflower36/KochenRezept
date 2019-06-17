@@ -24,13 +24,10 @@ public class fragment_proteins extends Fragment {
         txtEmpfehlung.setText(R.string.proteins_empfehlung);
         txtEmpfehlung.setMovementMethod(new ScrollingMovementMethod());
 
-        txtEmpfehlung.setTextSize(23);
 
         TextView txtDetails = (TextView) rootView.findViewById(R.id.text_proteins);
         txtDetails.setText(R.string.proteins_info);
         txtDetails.setMovementMethod(new ScrollingMovementMethod());
-
-        txtDetails.setTextSize(23);
 
         return rootView;
 

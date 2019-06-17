@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
 import org.w3c.dom.Text;
@@ -23,8 +24,9 @@ import org.w3c.dom.Text;
 public class profil2 extends Fragment {
 
     private ImageSwitcher sw;
-    private Button prev, next, speichern;
+    private ImageView prev, next, speichern;
     private int tag;
+    private String message="Auswahl gespeichert";
 
 
    // public static final String SHARED_PREFS = "sharedPrefs";
@@ -49,8 +51,8 @@ public class profil2 extends Fragment {
         View rootView =  inflater.inflate(R.layout.fragment_profil2, container, false);
 
         sw = (ImageSwitcher) rootView.findViewById(R.id.imgswtch);
-        prev = (Button) rootView.findViewById(R.id.btn_prev) ;
-        next = (Button) rootView.findViewById(R.id.btn_next) ;
+        prev =  rootView.findViewById(R.id.btn_prev) ;
+        next =  rootView.findViewById(R.id.btn_next) ;
         name = (TextView) rootView.findViewById(R.id.txt_profilname);
         speichern = rootView.findViewById(R.id.speichern);
         sw.setFactory(new ViewSwitcher.ViewFactory() {
@@ -62,10 +64,8 @@ public class profil2 extends Fragment {
             }
         });
 
-        sw.setImageResource(imageIds[0]);
-        name.setText("Anton Apfel");
-        tag=1;
-
+        loadData();
+        //--------Pfeil zurueck------------------
         prev.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 sw.setInAnimation(getActivity().getApplicationContext(),R.anim.in_from_right);
@@ -77,7 +77,7 @@ public class profil2 extends Fragment {
                     currentIndex = imageIds.length-1;
                 sw.setImageResource(imageIds[currentIndex]); // set the image in ImageSwitcher
 
-                //Namen anpassen
+                //---Namen anpassen----------------------------
 
                 switch (imageIds[currentIndex]){
                     case R.drawable.logo_apfel:
@@ -98,10 +98,9 @@ public class profil2 extends Fragment {
                         tag = 4;
                     break;
                 }
-
             }
         });
-
+        //------------naechstes Bild------------------------
         next.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 sw.setInAnimation(getActivity().getApplicationContext(),R.anim.in_from_left);
@@ -114,7 +113,7 @@ public class profil2 extends Fragment {
                     currentIndex = 0;
                 sw.setImageResource(imageIds[currentIndex]); // set the image in ImageSwitcher
 
-                //Namen anpassen
+                //------Namen anpassen-----------
 
                 switch (imageIds[currentIndex]){
                     case R.drawable.logo_apfel:
@@ -137,11 +136,11 @@ public class profil2 extends Fragment {
             }
 
         });
-
         speichern.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
             saveData();
+            Toast.makeText(getContext(),message,Toast.LENGTH_LONG).show();
             }
         });
     return rootView;
@@ -153,6 +152,34 @@ public class profil2 extends Fragment {
     SharedPreferences.Editor editor = sharedPreferences.edit();
     editor.putInt("Value", tag);
     editor.apply();
+
+    }
+    //---------Avatar laden-----------------------------------------
+    public void loadData() {
+        SharedPreferences result = getActivity().getSharedPreferences("SaveData", Context.MODE_PRIVATE);
+        int value = result.getInt("Value", 0);
+        switch (value){
+            case 0:
+
+                break;
+            case 1:
+                sw.setImageResource(R.drawable.logo_apfel);
+                name.setText("Anton Apfel");
+                break;
+            case 2:
+                sw.setImageResource(R.drawable.logo_banane);
+                name.setText("Bernd Banane");
+                break;
+            case 3:
+                sw.setImageResource(R.drawable.logo_birne);
+                name.setText("Bella Birne");
+                break;
+            case 4:
+                sw.setImageResource(R.drawable.logo_orange);
+                name.setText("Olaf Orange");
+                break;
+
+        }
 
     }
 

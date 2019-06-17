@@ -25,13 +25,11 @@ public class fragment_junks extends Fragment {
         txtEmpfehlung.setText(R.string.junks_empfehlung);
         txtEmpfehlung.setMovementMethod(new ScrollingMovementMethod());
 
-        txtEmpfehlung.setTextSize(23);
 
         TextView txtDetail = (TextView) rootView.findViewById(R.id.text_junks);
         txtDetail.setText(R.string.junks_info);
         txtDetail.setMovementMethod(new ScrollingMovementMethod());
 
-        txtDetail.setTextSize(23);
 
 
         return rootView;

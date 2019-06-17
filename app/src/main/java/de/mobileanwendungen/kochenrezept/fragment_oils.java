@@ -27,20 +27,13 @@ public class fragment_oils extends Fragment {
         txtEmpfehlung.setText(R.string.nuts_empfehlung);
         txtEmpfehlung.setMovementMethod(new ScrollingMovementMethod());
 
-        txtEmpfehlung.setTextSize(23);
-
         TextView txtNuts = (TextView) rootView.findViewById(R.id.text_nuts);
         txtNuts.setText(R.string.nuts_info);
         txtNuts.setMovementMethod(new ScrollingMovementMethod());
 
-        txtNuts.setTextSize(23);
-
         TextView txtOils = (TextView) rootView.findViewById(R.id.text_oils);
         txtOils.setText(R.string.oils_info);
         txtOils.setMovementMethod(new ScrollingMovementMethod());
-
-        txtOils.setTextSize(23);
-
 
         return rootView;
 

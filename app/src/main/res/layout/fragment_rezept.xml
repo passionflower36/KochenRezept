@@ -26,12 +26,12 @@
                 android:id="@+id/btn_pancake"
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
-                android:paddingTop="20dp"
-                app:srcCompat="@drawable/panke"
+                android:background="@color/windowBackground"
                 android:contentDescription="@string/app_name"
                 android:fitsSystemWindows="true"
-                android:background="@color/windowBackground"
-                android:scaleType="centerCrop"/>
+                android:paddingTop="20dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/panke" />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 

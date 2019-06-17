@@ -74,30 +74,36 @@ Die Spaghetti probieren und das Wasser abgießen, bevor sie keinen Wiederstand b
     <string name="title_dashboard">Wissen</string>
     <string name="wissen">Die Ernährungspyramide</string>
     <string name="carbs">Kohlenhydrate</string>
-    <string name="carbs_info">Zu viel Fett und zu viel Zucker machen dick und krank. Dennoch brauchen wir beide Nahrungsbestandteile zum Leben. Doch wie können wir unseren Kohlenhydrate-Bedarf künftig decken, wenn die Bevölkerungszahl weltweit schneller steigt als die Nahrungsmittel-Produktion? Zum Beispiel mit "Smart Breeding".
 
-Eigentlich brauchen wir keinen künstlich hergestellten Zucker, denn der Körper kann die lebensnotwendige Glucose ohne Probleme aus Kohlenhydraten wie Obst, Gemüse, Reis, Kartoffeln und auch aus Fleisch gewinnen.
+    <string name="avatarwissen">Klick auf die Bilder um mehr zu erfahren!</string>
+    <string name="carbs_info">Zu viel Fett und zu viel Zucker machen dick und krank.
+        Dennoch brauchen wir beide Nahrungsbestandteile zum Leben.
+        Doch wie können wir unseren Kohlenhydrate-Bedarf künftig decken, wenn die Bevölkerungszahl
+        weltweit schneller steigt als die Nahrungsmittel-Produktion? Zum Beispiel mit "Smart Breeding".
 
-Dafür muss aber genug Gemüse und Getreide da sein, um die Nachfrage weltweit zu decken. Wie könnte man sicher für Nachschub sorgen – auch wenn die Weltbevölkerung stark wächst?</string>
+Eigentlich brauchen wir keinen künstlich hergestellten Zucker, denn der Körper kann die lebensnotwendige
+        Glucose ohne Probleme aus Kohlenhydraten wie Obst, Gemüse, Reis, Kartoffeln und auch aus Fleisch gewinnen.
 
-    <string name="carbs_info2">Um funktionieren zu können, braucht unser Körper Kohlenhydrate. Mit Kohle haben sie trotz ihres Namens nichts zu tun, stattdessen geht es um unsere Ernährung.
+Dafür muss aber genug Gemüse und Getreide da sein, um die Nachfrage weltweit zu decken. Wie könnte man sicher für
+        Nachschub sorgen – auch wenn die Weltbevölkerung stark wächst?</string>
 
-Unser Körper braucht ständig Energie. Nicht nur, weil wir laufen, schwimmen oder Rad fahren wollen. Auch das Atmen, der Herzschlag, die gleichmäßige Körpertemperatur oder die Verdauung müssen in Schwung gehalten werden. Damit wir Energie bekommen, essen wir. In unserer Nahrung sind neben Eiweißen, Fetten, Mineralstoffen und Vitaminen auch Kohlenhydrate.
-
-Kohlenhydrate sind wichtig für den Körper. Unser Gehirn und unsere Muskeln brauchen sie, damit sie arbeiten können. Über das Blut gelangen sie in die Zellen und ermöglichen es dem Körper, seine Arbeit zu verrichten. Die Kohlenhydrate bestehen aus sogenannten Zuckermolekülen. Zu den Kohlenhydraten gehören aber nicht nur süß schmeckende Lebensmittel wie Obst oder Schokolade. Auch Brot, Kartoffeln oder Nudeln sind Kohlenhydrate.
-
-Experten schauen bei den Kohlenhydraten, wie viele Zuckerbausteine sie enthalten. Es gibt Einfachzucker, Zweifachzucker und Vielfachzucker. Dies zu wissen, ist für die Ernährung sehr wichtig. Denn die Kohlenhydrate werden im Körper unterschiedlich verarbeitet. Einfachzucker stecken beispielsweise im Obst, denn dort ist Fruchtzucker enthalten. Zu den Zweifachzuckern zählen Fachleute den Zucker, der in Süßigkeiten wie Gummibärchen und Schokolade steckt. Vielfachzucker sind vor allem in Getreide, Vollkornprodukten oder Kartoffeln enthalten.
-
-Kohlenhydrate haben oft einen schlechten Ruf, weil sie als Dickmacher gelten. Doch das stimmt nur bedingt. Denn Kartoffeln oder Nudeln beispielsweise haben gar nicht so viel Kalorien. Im Gegensatz zu Süßigkeiten muss der Körper die enthaltenen Vielfachzucker erst wieder in Einfachzucker zerlegen, damit sie verwertet werden können. Das sorgt dafür, dass wir nicht sofort wieder Heißhunger haben. Süßigkeiten kann der Körper sofort verwerten. Der Körper verlangt dann aber auch schnell wieder nach etwas Neuem. Das sorgt dafür, dass wir womöglich mehr essen und daher an Gewicht zulegen.
-
+    <string name="carbs_info2">Kohlenhydrate sind wichtig für den Körper. Unser Gehirn und unsere Muskeln brauchen sie,
+        damit sie arbeiten können. Über das Blut gelangen sie in die Zellen und ermöglichen es dem Körper, seine Arbeit
+        zu verrichten.
 </string>
+    <string name="carbs3"> Die Kohlenhydrate bestehen aus sogenannten Zuckermolekülen. Zu den Kohlenhydraten gehören aber
+        nicht nur süß schmeckende Lebensmittel wie Obst oder Schokolade. Auch Brot, Kartoffeln oder Nudeln sind
+        Kohlenhydrate.</string>
 
     <string name="carbs_src">Quelle: http://www.news4kids.de</string>
     <string name="carbs_empfehlung">täglich angemessene Portionen</string>
 
     <string name="drinks">Getränke</string>
     <string name="drinks_src">Quelle: https://www.onmeda.de/ernaehrung</string>
-    <string name="drinks_info">Die Basis und damit die unterste Ebene der Ernährungspyramide bilden Getränke. Flüssigkeit ist demnach die Grundlage einer gesunden Ernährung! Die Getränke sollten vor allem aus Wasser und Kräuter- oder Früchtetees bestehen. Verdünnen Sie Säfte mit reichlich Wasser, ansonsten enthalten sie zu viel Zucker.</string>
+    <string name="drinks_info">Die Basis und damit die unterste Ebene der Ernährungspyramide bilden Getränke.
+        Flüssigkeit ist demnach die Grundlage einer gesunden Ernährung! </string>
+    <string name="drinks2">Die Getränke sollten vor allem aus Wasser und Kräuter- oder Früchtetees bestehen.
+        Verdünne Säfte mit reichlich Wasser, ansonsten enthalten sie zu viel Zucker.</string>
     <string name="drinks_empfehlung">täglich mindestens 1,5l Mineralwasser</string>
     <string name="nutsoils">Nüsse und Öle</string>
     <string name="nuts_info">Samen und Nüsse sind sehr gesund und sollten regelmäßig verzehrt werden. In den letzten Jahren wird vermehrt darauf hingewiesen, dass Samen und Nüsse durch die ungesättigten Fettsäuren gesund sind und der Körper regelmäßig damit versorgt werden sollte. Einig darüber sind sich die Wissenschaftler erst seit einigen Jahren, nachdem verschiedene Studien zum Verzehr von Samen und Nüsse gemacht wurden.</string>
@@ -107,16 +113,20 @@ Kohlenhydrate haben oft einen schlechten Ruf, weil sie als Dickmacher gelten. Do
 
     <string name="junks">Fettes, Süßes und Salziges</string>
     <string name="junks_empfehlung">maximal eine kleine Portion pro Tag</string>
-    <string name="junks_info">Süßigkeiten und Salziges bilden keine Grundlage für eine gesunde Ernährung, sondern bilden lediglich einen Luxus den wir uns alle gerne erlauben. Allerdings sollte das Naschen in Maßen gehalten werden und am besten nach einer Hauptmahlzeit passieren.</string>
-    <string name="junks_src">Quelle: eigener Text</string>
+    <string name="junks_info">Süßigkeiten und Salziges bilden keine Grundlage für eine gesunde Ernährung, sondern bilden lediglich einen Luxus den wir uns alle gerne erlauben. </string>
+    <string name="junks_src">Allerdings sollte das Naschen in Maßen gehalten werden und am besten nach einer Hauptmahlzeit passieren.</string>
 
     <string name="proteins">Eiweiße von tierischen Produkten</string>
     <string name="proteins_info">Eiweiß kennt man aus den Eiern von Hühnern: Es ist eine weiße Masse, die man man auch kochen und essen kann. Wissenschaftler nennen Eiweiß Protein, sprich Pro-te-ihn. Protein findet man in allen Lebewesen, nicht nur bei Hühnern.
 
-Wie Kohlenhydrate und Fette sind die Eiweiße wichtig für die Menschen. Wer nicht genug Eiweiß zu sich nimmt, kann krank werden. Dank Eiweiß können Wunden heilen und neue Zellen entstehen. Ohne Eiweiß wächst man nicht gut und die Muskeln werden schwach.
+Wie Kohlenhydrate und Fette sind die Eiweiße wichtig für die Menschen. Wer nicht genug Eiweiß zu sich nimmt, kann krank werden.
 
-Kinder brauchen mehr Eiweiß als Erwachsene. Normalerweise ist aber im Essen genug Eiweiß. Nur manche Vegetarier müssen aufpassen, wenn sie nur Pflanzen essen und auch keine Eier oder Milch. Sie essen dafür Soja, Bohnen oder Nüsse – auch darin ist Eiweiß.</string>
-    <string name="proteins_src">Quelle: https://klexikon.zum.de/wiki</string>
+.</string>
+    <string name="proteins_src">Ohne Eiweiß wächst
+        man nicht gut und die Muskeln werden schwach. Kinder brauchen mehr Eiweiß als Erwachsene. Normalerweise
+        ist aber im Essen genug Eiweiß. Nur manche Vegetarier
+        müssen aufpassen, wenn sie nur Pflanzen essen und auch keine Eier oder Milch. Sie essen dafür Soja,
+        Bohnen oder Nüsse – auch darin ist Eiweiß.</string>
     <string name="proteins_empfehlung">täglich drei Portionen gesunder Milchprodukte und pro Woche 2x Fisch, 3x fettarmes Fleisch, 3x Eier </string>
 
     <string name="vegs">Obst und Gemüse</string>
@@ -143,6 +153,7 @@ Obst wächst auf Obstbäumen, an Sträuchern oder Stauden. Kommt das Obst von B�
     <!--Profil2: aber diese Buttons sollten am Besten als Image-Button ersetzt werden-->
     <string name="btn_prev">zurück</string>
     <string name="btn_nxt">vor</string>
+    <string name="profil">Hier kannst du deinen eigenen Begleiter aussuchen!</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

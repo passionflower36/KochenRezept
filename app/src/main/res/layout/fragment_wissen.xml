@@ -15,80 +15,241 @@
      android:fitsSystemWindows="true">
 
 
-        <LinearLayout
-            android:id="@+id/linear1_wissen"
-            android:layout_width="match_parent"
-            android:layout_height="741dp"
-            android:orientation="vertical"
-            android:fitsSystemWindows="true"
-            android:padding="@dimen/activity_horizontal_margin">
+     <android.support.constraint.ConstraintLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Die Ernährungspyramide"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                android:textColor="@color/colorAccent"
-                android:gravity="center" />
 
-            <ImageButton
-                android:id="@+id/junks_button"
-                android:layout_width="wrap_content"
-                android:layout_height="59dp"
-                android:background="@null"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/button_junks" />
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginBottom="8dp"
+             android:fontFamily="casual"
+             android:gravity="center"
+             android:text="Die Ernährungspyramide"
+             android:textColor="@color/colorAccent"
+             android:textSize="25dp"
+             android:textStyle="bold"
+             app:layout_constraintBottom_toTopOf="@+id/wissen1"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/guideline24"
+             app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
-                android:id="@+id/nutsoils_button"
-                android:layout_width="wrap_content"
-                android:layout_height="75dp"
-                android:background="@null"
-                android:padding="16dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/button_nutsoils" />
+         <ImageButton
+             android:id="@+id/junks_button"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:background="@null"
+             android:scaleType="fitCenter"
+             app:layout_constraintBottom_toTopOf="@+id/wissen2"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/wissen8"
+             app:layout_constraintTop_toTopOf="@+id/wissen1"
+             app:srcCompat="@drawable/button_junks" />
 
-            <ImageButton
-                android:id="@+id/proteins_button"
-                android:layout_width="wrap_content"
-                android:layout_height="78dp"
-                android:background="@null"
-                android:padding="16dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/button_proteins" />
+         <ImageButton
+             android:id="@+id/nutsoils_button"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:background="@null"
+             android:scaleType="fitCenter"
+             app:layout_constraintBottom_toTopOf="@+id/wissen3"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/wissen8"
+             app:layout_constraintTop_toTopOf="@+id/wissen2"
+             app:srcCompat="@drawable/button_nutsoils" />
 
-            <ImageButton
-                android:id="@+id/carbs_button"
-                android:layout_width="wrap_content"
-                android:layout_height="86dp"
-                android:background="@null"
-                android:contentDescription="@string/carbs"
-                android:padding="16dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/button_carbs"
-                tools:layout_width="wrap_content" />
+         <ImageButton
+             android:id="@+id/proteins_button"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:background="@null"
+             android:padding="16dp"
+             android:scaleType="fitCenter"
+             app:layout_constraintBottom_toTopOf="@+id/wissen4"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/wissen8"
+             app:layout_constraintTop_toTopOf="@+id/wissen3"
+             app:srcCompat="@drawable/button_proteins" />
 
-            <ImageButton
-                android:id="@+id/veggies_button"
-                android:layout_width="wrap_content"
-                android:layout_height="78dp"
-                android:background="@null"
-                android:padding="16dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/button_veggies" />
+         <ImageButton
+             android:id="@+id/carbs_button"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:background="@null"
+             android:contentDescription="@string/carbs"
 
-            <ImageButton
-                android:id="@+id/drinks_button"
-                android:layout_width="wrap_content"
-                android:layout_height="65dp"
-                android:background="@null"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/button_drinks" />
-    </LinearLayout>
+
+             android:scaleType="fitCenter"
+             app:layout_constraintBottom_toTopOf="@+id/wissen5"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/guideline24"
+             app:layout_constraintTop_toTopOf="@+id/wissen4"
+             app:srcCompat="@drawable/button_carbs" />
+
+         <ImageButton
+             android:id="@+id/veggies_button"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:background="@null"
+             android:padding="16dp"
+             android:scaleType="fitCenter"
+             app:layout_constraintBottom_toTopOf="@+id/wissen6"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/wissen8"
+             app:layout_constraintTop_toTopOf="@+id/wissen5"
+             app:srcCompat="@drawable/button_veggies" />
+
+         <ImageButton
+             android:id="@+id/drinks_button"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:background="@null"
+             android:scaleType="fitCenter"
+             app:layout_constraintBottom_toTopOf="@+id/wissen7"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/wissen8"
+             app:layout_constraintTop_toTopOf="@+id/wissen6"
+             app:srcCompat="@drawable/button_drinks" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.12" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.24" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.34" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.49" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.6" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.75" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.86" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintGuide_percent="0.05" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintGuide_percent="0.95" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/guideline23"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintGuide_begin="20dp" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/guideline24"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintGuide_begin="20dp" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen10"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintGuide_percent="0.23" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen11"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintGuide_percent="0.26" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/wissen12"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintGuide_percent="0.59" />
+
+         <android.support.constraint.Guideline
+             android:id="@+id/guideline26"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             app:layout_constraintGuide_percent="0.99" />
+
+         <ImageView
+             android:id="@+id/wissenhelfer"
+             android:layout_width="54dp"
+             android:layout_height="47dp"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginBottom="8dp"
+             app:layout_constraintBottom_toTopOf="@+id/guideline26"
+             app:layout_constraintEnd_toStartOf="@+id/wissen10"
+             app:layout_constraintStart_toStartOf="@+id/guideline24"
+             app:layout_constraintTop_toTopOf="@+id/wissen7"
+             app:srcCompat="@drawable/logo_apfel_kopie" />
+
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:textSize="15sp"
+             android:padding="5dp"
+             android:fontFamily="casual"
+             android:textStyle="bold"
+             android:text="@string/avatarwissen"
+             android:layout_marginTop="10dp"
+             app:layout_constraintBottom_toTopOf="@+id/guideline26"
+             app:layout_constraintEnd_toStartOf="@+id/wissen9"
+             app:layout_constraintStart_toStartOf="@+id/wissen10"
+             app:layout_constraintTop_toTopOf="@+id/wissen7"
+             android:background="#ffffff"/>
+     </android.support.constraint.ConstraintLayout>
  </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>

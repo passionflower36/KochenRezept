@@ -24,20 +24,13 @@ public class fragment_vegs extends Fragment {
         txtEmpfehlung.setText(R.string.vegs_empfehlung);
         txtEmpfehlung.setMovementMethod(new ScrollingMovementMethod());
 
-        txtEmpfehlung.setTextSize(23);
-
         TextView txtObst = (TextView) rootView.findViewById(R.id.text_obst);
         txtObst.setText(R.string.obst);
         txtObst.setMovementMethod(new ScrollingMovementMethod());
 
-        txtObst.setTextSize(23);
-
         TextView txtVegs = (TextView) rootView.findViewById(R.id.text_veg);
         txtVegs.setText(R.string.veegs_info);
         txtVegs.setMovementMethod(new ScrollingMovementMethod());
-
-        txtVegs.setTextSize(23);
-
 
         return rootView;
 

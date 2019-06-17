@@ -20,17 +20,18 @@ public class CarbsFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_carbs, null);
 
+        //------------Text einsetzen---------------------------------
+
         TextView txtEmpfehlung = (TextView) rootView.findViewById(R.id.text_carbs_empfehlung);
+
         txtEmpfehlung.setText(R.string.carbs_empfehlung);
         txtEmpfehlung.setMovementMethod(new ScrollingMovementMethod());
 
-        txtEmpfehlung.setTextSize(23);
 
         TextView txtDetails = (TextView) rootView.findViewById(R.id.text_carbs);
         txtDetails.setText(R.string.carbs_info2);
         txtDetails.setMovementMethod(new ScrollingMovementMethod());
 
-        txtDetails.setTextSize(23);
 
         return rootView;
 

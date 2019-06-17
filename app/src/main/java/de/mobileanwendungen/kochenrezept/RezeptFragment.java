@@ -59,28 +59,32 @@ public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClic
     @Override
     public void onItemClick(int position) {
 
-
         FragmentTransaction fr = getFragmentManager().beginTransaction();
 
         switch (position){
             case 0:
                 fr.replace(R.id.fragment_container, new rezept_obstsalat());
+                fr.addToBackStack(null);// mit dem Back-Button lässt sich auf letzte Seite navigieren
                 fr.commit();
                 break;
             case 1:
                 fr.replace(R.id.fragment_container, new rezept_pancake());
+                fr.addToBackStack(null);
                 fr.commit();
                 break;
             case 2:
                 fr.replace(R.id.fragment_container, new rezept_bolognese());
+                fr.addToBackStack(null);
                 fr.commit();
                 break;
             case 3:
                 fr.replace(R.id.fragment_container, new rezept_icetea());
+                fr.addToBackStack(null);
                 fr.commit();
                 break;
             case 4:
                 fr.replace(R.id.fragment_container, new rezept_waffle());
+                fr.addToBackStack(null);
                 fr.commit();
                 break;
         }

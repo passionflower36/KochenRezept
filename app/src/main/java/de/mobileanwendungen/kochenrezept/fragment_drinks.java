@@ -25,13 +25,11 @@ public class fragment_drinks extends Fragment {
         txtEmpfehlung.setText(R.string.drinks_empfehlung);
         txtEmpfehlung.setMovementMethod(new ScrollingMovementMethod());
 
-        txtEmpfehlung.setTextSize(23);
 
         TextView txtDetails = (TextView) rootView.findViewById(R.id.text_drinks);
         txtDetails.setText(R.string.drinks_info);
         txtDetails.setMovementMethod(new ScrollingMovementMethod());
 
-        txtDetails.setTextSize(23);
         return rootView;
     }
 

@@ -1,6 +1,8 @@
 package de.mobileanwendungen.kochenrezept;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,7 +15,7 @@ import android.widget.ImageView;
 public class rezept_obstsalat extends Fragment {
 
     ImageView headerimg;
-    Button zumSpiel;
+    ImageView zumSpiel;
 
 
     public ImageView getHeaderimg() {
@@ -33,6 +35,7 @@ public class rezept_obstsalat extends Fragment {
        // headerimg = (ImageView) rootView.findViewById(R.id.img_recipe);
 
         zumSpiel = rootView.findViewById(R.id.zumSpiel);
+        loadData();
 
         //--------Button zumSpiel-------------------------
         zumSpiel.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +52,28 @@ public class rezept_obstsalat extends Fragment {
     public void openSpielen(){
         Intent intent = new Intent(getActivity(), spielen.class);
         startActivity(intent);
+    }
+
+    public void loadData() {
+        SharedPreferences result = getActivity().getSharedPreferences("SaveData", Context.MODE_PRIVATE);
+        int value = result.getInt("Value", 0);
+        switch (value){
+            case 0:
+                break;
+            case 1:
+                zumSpiel.setImageResource(R.drawable.logo_apfel);
+                break;
+            case 2:
+                zumSpiel.setImageResource(R.drawable.logo_banane);
+                break;
+            case 3:
+                zumSpiel.setImageResource(R.drawable.logo_birne);
+                break;
+            case 4:
+                zumSpiel.setImageResource(R.drawable.logo_orange);
+                break;
+
+        }
     }
 
 }

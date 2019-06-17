@@ -152,24 +152,17 @@ public class spielen extends AppCompatActivity {
             case 0:
             break;
             case 1:
-                avatar.setImageResource(R.drawable.koch);
+                avatar.setImageResource(R.drawable.logo_apfel);
                 break;
             case 2:
-                avatar.setImageResource(R.drawable.fuchs);
+                avatar.setImageResource(R.drawable.logo_banane);
                 break;
             case 3:
-                avatar.setImageResource(R.drawable.panda);
+                avatar.setImageResource(R.drawable.logo_birne);
                 break;
             case 4:
-                avatar.setImageResource(R.drawable.opa);
+                avatar.setImageResource(R.drawable.logo_orange);
                 break;
-            case 5:
-                avatar.setImageResource(R.drawable.oma);
-                break;
-            case 6:
-                avatar.setImageResource(R.drawable.mickey);
-            case 7:
-                avatar.setImageResource(R.drawable.wizard);
 
         }
 

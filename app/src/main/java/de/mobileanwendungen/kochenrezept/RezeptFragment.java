@@ -100,11 +100,7 @@ public class RezeptFragment extends Fragment implements RezeptAdapter.onItemClic
       // System.out.println("FOODLIST POSITION" +foodList.get(position));
        // Log.d(TAG, "onItemClick: click" + position);
        // int chosenpic;
-
-
-
        // headerpic.setImageResource(chosenpic);
-
         //fragment_detail.setHeaderimg(headerpic);
 
 
